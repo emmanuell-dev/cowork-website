@@ -7,7 +7,7 @@ html{
   font-size: 62.5%;
 }
 body{
-  min-width: 256rem;
+  min-width: 166rem;
 }
 
 .head{
@@ -23,7 +23,7 @@ body{
   align-items: center;
   /*background-color: pink;*/
  height: 6rem;
- padding: 0 3rem;
+ padding: 0 6rem;
 }
 .main-logo{
   color: #000;
@@ -68,14 +68,14 @@ body{
   width: 100%;
   max-width: 192rem;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 5rem;
 }
 .primary-heading{
-  font-size: 9rem;
+  font-size: 8rem;
   line-height: 1.1;
   margin-bottom: 4rem;
   font-weight: 800;
@@ -135,8 +135,9 @@ body{
   justify-content: space-around;
 }
 
+
 .feature-in-img img{
-  height: 80px;
+  height: 60px;
   filter: brightness(0);
   opacity: 70%;
 }
@@ -144,7 +145,7 @@ body{
 
 
 .section-why{
-  padding: 12rem;
+  padding: 12rem 0;
 }
 
 
@@ -198,7 +199,7 @@ body{
 
 
 .section-tour{
-  padding: 12rem;
+  padding: 12rem 0;
   /*background-color: yellow;*/
 }
 
@@ -233,8 +234,7 @@ body{
 }
 
 .section-statistics{
-  padding: 12rem;
- /* background-color: yellow;*/
+  padding: 12rem 0;
 }
 
 .grid-1{
@@ -390,11 +390,11 @@ body{
 }
 
 .section-faq{
-  padding: 12rem;
+  padding: 12rem 0;
 }
 
 .faq-text-box{
-  
+
 }
 .faq-subheading{
   display: inline-block;
@@ -446,6 +446,7 @@ body{
   grid-column: 1 / span 3;
   font-size: 3rem;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .faq-img{
