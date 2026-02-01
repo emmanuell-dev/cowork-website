@@ -6,7 +6,7 @@
 }
 
 .heading-primary{
-  font-size: 9rem;
+  font-size: 8rem;
   line-height: 1.1;
   margin-bottom: 4rem;
   font-weight: 800;
@@ -62,7 +62,7 @@
   width: 100%;
   max-width: 192rem;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 6rem;
 }
 
 .grid{
@@ -101,5 +101,6 @@
   letter-spacing: 0.9px;
   font-weight: 700;
   margin-bottom: 4rem;
+  line-height: 1.1;
 }
 

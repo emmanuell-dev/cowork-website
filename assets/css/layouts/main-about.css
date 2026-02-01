@@ -7,7 +7,7 @@ html{
   font-size: 62.5%;
 }
 body{
-  min-width: 256rem;
+  min-width: 166rem;
 }
 
 .head{
@@ -21,7 +21,7 @@ body{
   justify-content: space-between;
   align-items: center;
  height: 6rem;
- padding: 0 2rem;
+ padding: 0 6rem;
 }
 .main-logo{
   color: #000;
