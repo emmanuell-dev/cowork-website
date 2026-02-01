@@ -90,3 +90,8 @@ body{
   width: 2.4rem;
   height: 2.4rem;
 }
+
+.hero-img{
+  width: 100%;
+  border-radius: 2rem;
+}
