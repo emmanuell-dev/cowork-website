@@ -54,3 +54,48 @@ Section Why Choose Us
   height: 80rem;
   border-radius: 4rem;
 }
+
+.section-stats{
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
+}
+
+.h-ms{
+  margin-bottom: 4rem;
+}
+
+.h-m{
+  margin-bottom: 1rem;
+}
+
+.hightlight{
+  position: relative;
+  z-index: 1;
+}
+
+.hightlight::before{
+  content: "";
+  position: absolute;
+  width: 5rem;
+  padding-bottom: 5rem;
+  background-color: #D3F985;
+  top: 1.7rem;
+  left: 5rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.seconds::before{
+background-color: #A6E8F6;
+left: 2.5rem;
+}
+
+.thrids::before{
+background-color: #FCBEDC;
+left: 2.5rem;
+}
+
+
+.fourth::before{
+    background-color: #FBC899;
+}
