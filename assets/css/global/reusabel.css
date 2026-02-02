@@ -20,6 +20,11 @@ body{
     color: #1a1a1a;
 }
 
+.hero-img{
+    width: 100%;
+    border-radius: 4rem;
+}
+
 .h1{
     font-size: 7.2rem;
     line-height: 1.1;
@@ -143,12 +148,14 @@ body{
 
 .grid{
     display: grid;
-    gap: 3.2rem;
+    gap: 5rem;
+    align-items: center;
 }
 
 .grids{
     display: grid;
     gap: 10rem;
+    align-items: center
 }
 
 .grid-2-col{
