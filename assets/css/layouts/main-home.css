@@ -43,3 +43,14 @@ Section Why Choose Us
   padding: 10rem 0;
   margin-bottom: 6.2rem;
 }
+
+.section-tour{
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
+}
+
+.tour-video{
+  width: 100%;
+  height: 80rem;
+  border-radius: 4rem;
+}
