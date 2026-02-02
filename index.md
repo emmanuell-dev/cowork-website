@@ -157,16 +157,8 @@ By subscribing you agree to with our **Privacy Policy** and provide consent to r
 
 ### Stay Connected
 - Subscribe  
-- Member Stories  
 - Locations  
 - Write for Us  
-
-### Follow Us
-- Facebook  
-- Instagram  
-- X  
-- LinkedIn  
-- Youtube  
 
 ---
 

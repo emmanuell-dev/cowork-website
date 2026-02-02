@@ -12,7 +12,7 @@ body{
 }
 
 .head{
-  /*background-color: yellow;*/
+  background-color: red;
   padding: 3rem 0;
 }
 .head-container{
@@ -22,7 +22,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*background-color: pink;*/
+  background-color: pink;
  height: 6rem;
  padding: 0 4rem;
 }
