@@ -1,5 +1,6 @@
 .section-hero{
-  padding: 12rem 0;
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
 }
 
 .high-light{
@@ -15,4 +16,20 @@
   border: 0.3rem solid #D3F985;
   border-radius: 55%;
   z-index: -1;
+}
+
+.section-feature-in{
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
+}
+
+.feature-in-img{
+  display: flex;
+  gap: 6rem;
+}
+
+.feature-img{
+  height: 6.8rem;
+  filter: brightness(0);
+  opacity: 60%;
 }
