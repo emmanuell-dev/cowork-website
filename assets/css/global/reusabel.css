@@ -195,6 +195,8 @@ body{
     padding: 0.8rem 1.2rem;
     font-size: 1.6rem;
     border-bottom: 0.1rem solid #ccc;
+    color: #fff;
+    font-size: 1.6rem;
 }
 
 .cta .form-btn{
