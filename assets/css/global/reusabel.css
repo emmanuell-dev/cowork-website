@@ -382,11 +382,97 @@ General Flex
     gap: 3rem;
 }
 
+
+
+
+
+
 /*
 
-Reusable Card 
+
+
+Blog Part for blog page grid and blog section grid
+
+
 */
 
-.cards{
+.blog-img{
+  width: 50rem;
+  height: 30rem;
+  border-radius: 4rem;
+}
+
+.blog{
+    padding: 2rem 0;
+}
+
+.span-tag{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.tag{
+    display: inline-block;
+    font-size: 2.4rem;
+}
+
+.tag-title{
+    color: #1a1a1a;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+
+.trend,
+.talk,
+.productivity{
     
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+}
+
+.trend{
+    background-color: #A6E8F6;
+}
+
+.productivity{
+    background-color: #FCBEDC;
+}
+
+.talk{
+    background-color: #D3F985;
+}
+
+.time{
+    color: #313131;
+}
+
+.blog-heading{
+    font-size: 4rem;
+    line-height: 1.3;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.blog-btn:link,
+.blog-btn:visited{
+    display: inline-flex;
+    align-items: center ;
+    gap: 2rem;
+   text-decoration: none;
+   font-size: 2rem;
+   color: #313131;
+   font-weight: 500;
+   transition: all 0.3s linear;
+}
+
+.blog-btn:hover,
+.blog-btn:active{
+    color: #1a1a1a;
+}
+
+.blog-icon{
+    width: 2.4rem;
+    stroke: #313131;
 }
