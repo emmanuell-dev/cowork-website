@@ -95,7 +95,82 @@ background-color: #FCBEDC;
 left: 2.5rem;
 }
 
-
 .fourth::before{
     background-color: #FBC899;
+}
+
+/*
+
+
+Section Testimonial 
+
+*/
+
+.section-testimonial{
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
+}
+
+
+
+.cards-img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.testimonial{
+ font-size: 2.4rem;
+ line-height: 1.5;
+   font-weight: 400;
+   color: #313131;
+}
+
+.author-name{
+  font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.author-title{
+  font-size: 2.4rem;
+  color: #313131;
+}
+
+.cards{
+  background-color: #D3F985;
+  padding: 4rem 2rem;
+  border-radius: 3rem;
+}
+
+.cards-1{
+    align-self: end;
+}
+
+.cards-2{
+  background-color: #FCBEDC;
+}
+
+.cards-3{
+  background-color: #A6E8F6;
+    align-self: end;
+}
+
+.cards-4{
+  background-color: #FCBEDC;
+  width: 30%;
+}
+
+.cards-5{
+  background-color: #FBC899;
+  width: 30%;
+}
+
+.flex-card{
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 }
