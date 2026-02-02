@@ -33,3 +33,13 @@
   filter: brightness(0);
   opacity: 60%;
 }
+
+/*
+Section Why Choose Us
+
+*/
+
+.section-why{
+  padding: 10rem 0;
+  margin-bottom: 6.2rem;
+}
