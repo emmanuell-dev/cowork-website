@@ -331,20 +331,18 @@
   padding: 4rem 0;
   margin-bottom: 3.2rem;
   background-color: yellow;
-  
+  }
   
     .faq-description{
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 400;
-    color: red;
   }
   
   .thrid-heading{
     font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5;
-  color: red;
   }
   
   .faq-answer{
@@ -352,15 +350,9 @@
   font-size: 1.4rem;
  line-height: 1.5;
   font-weight: 400;
-  color: red;
   }
 
-  
-  
-  
-  
-  
-}
+
 
   .section-cta{
     padding: 4rem 0;
