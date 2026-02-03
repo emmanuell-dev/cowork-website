@@ -31,13 +31,18 @@
   
   .span{
     font-size: 2.5rem;
+    letter-spacing: -0.3rem;
+    color: white;
   }
   
   .h2ss{
     font-size: 4.5rem;
-    color: white;
+    line-height: 1.1;
   }
   
+  .h2sss{
+    margin-bottom: 2.5rem;
+  }
   
   
   
