@@ -401,7 +401,6 @@ Blog Part for blog page grid and blog section grid
 */
 
 .blog-img{
-    background-color: red;
   max-width: 100%;
   height: 50%;
   border-radius: 4rem;
@@ -413,13 +412,9 @@ Blog Part for blog page grid and blog section grid
 .gap{
     padding: 2rem 0;
     margin-bottom: 2rem;
-    background-color: red;
     max-width: 100%;
 }
 
-article{
-    background-color: blue;
-}
 
 .span-tag{
     display: flex;
