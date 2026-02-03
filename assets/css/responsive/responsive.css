@@ -163,6 +163,15 @@
     max-width: none;
   }
   
+  .logo{
+    font-size: 3.5rem;
+  }
+  
+  .a-link:link,
+  .a-link:visited{
+    font-size: 1.3rem;
+  }
+  
   
   .h1{
     font-size: 4.5rem;
