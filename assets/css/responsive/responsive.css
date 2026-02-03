@@ -52,7 +52,7 @@
   */
   
   .faq-description{
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 400;
     color: white;
@@ -60,14 +60,14 @@
   
   .thrid-heading{
     color: white;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   font-weight: 600;
   }
   
   .faq-answer{
     color: white;
-    padding: 2rem 0;
-  font-size: 2.4rem;
+    padding: 1rem 0;
+  font-size: 1.6rem;
  line-height: 1.5;
   font-weight: 400;
   }
