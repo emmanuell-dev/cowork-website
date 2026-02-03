@@ -227,16 +227,13 @@
   margin-bottom: 3.2rem;
   background-color: yellow;
   }
-  
-  .feature-in-img{
-  display: flex;
-  gap: 2.5rem;
+  .span-flex{
+    gap: 3rem;
   }
+  
+  
   .feature-img{
   height: 3.2rem;
-  filter: brightness(0);
-  opacity: 60%;
-  max-width: 100%;
 }
   
   .section-why{
@@ -252,7 +249,7 @@
   /*.   Flex Container          */
   
   .flex{
-    gap: 3rem;
+    gap: 4rem;
   }
   
   .flex-group{
