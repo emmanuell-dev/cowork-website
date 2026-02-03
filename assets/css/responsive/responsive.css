@@ -256,7 +256,7 @@
   }
   
   .flex-group{
-    gap: 1rem;
+    gap: 1rem
   }
   
   
@@ -269,21 +269,6 @@
   background-color: yellow;
   }
   
-  .span-min{
-    color: red;
-    display: inline-block;
-    margin-bottom: 2.5rem;
-  }
-  
-  .h2s-min{
-    color: red;
-    margin-bottom: 1.5rem;
-  }
-  
-  .p-h{
-    color: red;
-    margin-bottom: 2.5rem;
-  }
   .tour-video{
     width: 90%;
   height: 60rem;
