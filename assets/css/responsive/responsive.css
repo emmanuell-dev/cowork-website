@@ -135,3 +135,32 @@
     font-size: 1.6rem;
   }
 }
+
+
+@media (min-width: 1024px) and (max-width: 1440px){
+  
+    .layout {
+    min-width: 100%;   /* allows layout to shrink */
+    max-width: 1400px;   /* optional */
+    margin: 0 auto;      /* center layout */
+  }
+  .head-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+  
+  .logo{
+    font-size: 6rem;
+  }
+
+  .container {
+    max-width: 1024px;   /* shrink content */
+    margin: 0 auto; 
+    padding: 0 1.6rem;
+  }
+
+  section{
+    background-color: yellow;
+  }
+}
