@@ -144,6 +144,10 @@
 
 */
 @media (min-width: 1270px) and (max-width: 1430px){
+  html{
+    font-size: 56.25%;
+  }
+  
   .layout{
     width: 100%;
     min-width: 0;
@@ -158,6 +162,9 @@
   
   .section-hero{
     background-color: yellow;
-
+  }
+  
+  .h1{
+    font-size: 4.5rem;
   }
 }
