@@ -8,7 +8,6 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 1.6rem;
-    background-color: darkred;
     
   }
   
@@ -144,31 +143,3 @@
 
 
 */
-
-@media (min-width: 1023px) and (max-width: 1430px) {
-  
-  html{
-    font-size: 56.25%;
-  }
-  .layout {
-    min-width: 100%;    
-    max-width: 1430px;      
-    margin: 0 auto;          
-  }
-  
-   .head-container{
-    max-width: 1023px;
-    margin: 0 auto;
-    padding: 0 1.6rem;
-   }
-
-  .container {
-    max-width: 1023px;   /* shrink content */
-    margin: 0 auto; 
-    padding: 0 1.6rem;
-  }
-  
-  section{
-    
-  }
-}
