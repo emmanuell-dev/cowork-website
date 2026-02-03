@@ -223,4 +223,10 @@
     font-size: 2rem;
   }
   
+  .footer{
+    padding: 4rem 0;
+    background-color: darkred;
+    color: #fff;
+}
+  
 }
