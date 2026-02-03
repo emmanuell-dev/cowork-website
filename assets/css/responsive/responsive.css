@@ -8,7 +8,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 1.6rem;
-    background-color: red;
+    
   }
   
   .logo{
@@ -156,12 +156,14 @@
     max-width: 1023px;
     margin: 0 auto;
     padding: 0 1.6rem;
+    background-color: red;
    }
 
   .container {
     max-width: 1023px;   /* shrink content */
     margin: 0 auto; 
     padding: 0 1.6rem;
+    background-color: red;
   }
   
   section{
