@@ -135,6 +135,9 @@
   .author-title{
     font-size: 1.6rem;
   }
+  .footer{
+    padding-bottom: 0;
+  }
 }
 
 
@@ -160,13 +163,14 @@
     max-width: none;
   }
   
-  .section-hero{
-    background-color: yellow;
-  }
   
   .h1{
     font-size: 4.5rem;
     margin-bottom: 2rem;
+  }
+  
+  .h1s{
+    font-size: 4rem;
   }
   
     .h2s{
@@ -194,6 +198,42 @@
   .p--bold{
     font-size: 2.5rem;
   }
+  
+  .section-hero{
+  padding: 6rem 0;
+  margin-bottom: 7rem;
+  background-color: yellow;
+}
+  
+  .section-feature-in{
+    padding: 3rem 0;
+  margin-bottom: 3.2rem;
+  background-color: yellow;
+  }
+  .feature-img{
+  height: 6.2rem;
+  filter: brightness(0);
+  opacity: 60%;
+  max-width: 100%;
+}
+  
+  .section-why{
+    padding: 4rem 0;
+  margin-bottom: 3.2rem;
+  background-color: yellow;
+  }
+  
+  .section-tour{
+    padding: 4rem 0;
+  margin-bottom: 3.2rem;
+  background-color: yellow;
+  }
+  
+  .section-stats{
+  padding: 4rem 0;
+  margin-bottom: 3.2rem;
+  background-color: yellow;
+}
   
   .section-testimonial{
   padding: 4rem 0;
