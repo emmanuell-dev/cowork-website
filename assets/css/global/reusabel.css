@@ -13,6 +13,8 @@ body{
 
 .layout{
     min-width: 166rem;
+    max-width: 192rem;
+    margin: 0 auto;
     
 }
 
@@ -95,7 +97,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 192rem;
+    max-width: 166rem;
     margin: 0 auto;
     padding: 0 2.4rem;
 }
