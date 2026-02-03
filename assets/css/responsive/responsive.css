@@ -145,6 +145,10 @@
 */
 
 @media (min-width: 1023px) and (max-width: 1430px) {
+  
+  html{
+    font-size: 56.25%;
+  }
   .layout {
     min-width: 100%;    
     max-width: 1430px;      
