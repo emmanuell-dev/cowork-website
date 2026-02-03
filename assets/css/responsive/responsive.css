@@ -177,6 +177,14 @@
     font-size: 3.5rem;
   }
   
+  .h2{
+   font-size: 3.5rem;
+  }
+  
+  .h-m{
+    font-weight: 700;
+  }
+  
   .span{
     font-size: 2rem;
     letter-spacing: 0.1rem;
@@ -199,6 +207,15 @@
     font-size: 2.5rem;
   }
   
+  .span-small{
+    font-size: 1.4rem;
+  }
+  
+  .hero-img{
+    width: 100%;
+    border-radius: 2rem;
+}
+  
   .section-hero{
   padding: 6rem 0;
   margin-bottom: 7rem;
@@ -210,8 +227,13 @@
   margin-bottom: 3.2rem;
   background-color: yellow;
   }
+  
+  .feature-in-img{
+  display: flex;
+  gap: 2.5rem;
+  }
   .feature-img{
-  height: 6.2rem;
+  height: 4.2rem;
   filter: brightness(0);
   opacity: 60%;
   max-width: 100%;
@@ -223,10 +245,42 @@
   background-color: yellow;
   }
   
+  .card-img{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+ .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
   .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
   background-color: yellow;
+  }
+  
+  .span-min{
+    color: red;
+    display: inline-block;
+    margin-bottom: 2.5rem;
+  }
+  
+  .h2s-min{
+    color: red;
+    margin-bottom: 1.5rem;
+  }
+  
+  .p-h{
+    color: red;
+    margin-bottom: 2.5rem;
+  }
+  .tour-video{
+    width: 90%;
+  height: 60rem;
+  border-radius: 2rem;
   }
   
   .section-stats{
