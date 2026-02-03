@@ -35,9 +35,10 @@ section feature in
 }
 
 .feature-img{
-  height: 6.8rem;
+  height: 3.2rem;
   filter: brightness(0);
   opacity: 60%;
+  max-width: 100%;
 }
 
 /*
