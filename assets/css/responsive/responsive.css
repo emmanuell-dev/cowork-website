@@ -200,6 +200,10 @@
     font-size: 1.2rem;
   }
   
+  .gap{
+    gap: 1rem;
+  }
+  
     .tag{
     font-size: 1.3rem;
   }
