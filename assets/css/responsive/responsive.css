@@ -199,6 +199,11 @@
   .author-title{
     font-size: 1.2rem;
   }
+  .section-faq{
+  padding: 4rem 0;
+  margin-bottom: 3.2rem;
+  background-color: yellow;
+}
 
   .section-cta{
     background-color: darkred;
@@ -209,7 +214,6 @@
 .section-blog{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
 }
   
   .gap{
@@ -229,7 +233,7 @@
   }
   
   .footer{
-    padding-top: 4rem 0;
+    padding: 0;
     color: #fff;
 }
   
