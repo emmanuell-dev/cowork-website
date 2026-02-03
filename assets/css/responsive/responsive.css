@@ -1,11 +1,11 @@
-@media (min-width: 90em) and (max-width: 107em) {
+@media (min-width: 1440px) and (max-width: 1700px) {
   .layout {
     min-width: 100%;   /* allows layout to shrink */
-    max-width: 170rem;   /* optional */
+    max-width: 1700px;   /* optional */
     margin: 0 auto;      /* center layout */
   }
   .head-container{
-    max-width: 144rem;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 1.6rem;
     
@@ -16,7 +16,7 @@
   }
 
   .container {
-    max-width: 144rem;   /* shrink content */
+    max-width: 1440px;   /* shrink content */
     margin: 0 auto; 
     padding: 0 1.6rem;
   }
