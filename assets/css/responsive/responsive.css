@@ -9,6 +9,10 @@
     margin: 0 auto;
     padding: 0 1.6rem;
   }
+  
+  .logo{
+    font-size: 6rem;
+  }
 
   .container {
     max-width: 1440px;   /* shrink content */
@@ -16,9 +20,7 @@
     padding: 0 1.6rem;
   }
 
-  section {
-    background-color: yellow/* reduce vertical spacing */
-  }
+  
   /* 
   
   Headings resize 
