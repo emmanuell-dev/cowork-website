@@ -409,6 +409,10 @@ Blog Part for blog page grid and blog section grid
 .blog{
     padding: 2rem 0;
 }
+.gap{
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
 
 .span-tag{
     display: flex;
@@ -479,4 +483,10 @@ Blog Part for blog page grid and blog section grid
 .blog-icon{
     width: 2.4rem;
     stroke: #313131;
+}
+
+.btn-view-all{
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }

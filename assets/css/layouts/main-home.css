@@ -115,8 +115,15 @@ Section Testimonial
 .section-testimonial{
   padding: 10rem 0;
   margin-bottom: 6.2rem;
+  background-color: yellow;
 }
 
+.margin{
+  margin-bottom: 10rem;
+}
+.margins{
+  padding: 2rem;
+}
 
 
 .cards-img{
