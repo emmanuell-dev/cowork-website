@@ -156,8 +156,8 @@
     max-width: none;
   }
   
-  section{
-    background-color: blue#1624BE;
-    color: darkred;
+  .section-hero{
+    background-color: yellow;
+
   }
 }
