@@ -149,11 +149,17 @@
     max-width: 1430px;      
     margin: 0 auto;          
   }
+  
+   .head-container{
+    max-width: 1023px;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+   }
 
   .container {
-    max-width: 100%;        
-    padding: 0 16px;     
-    margin: 0 auto;
+    max-width: 1023px;   /* shrink content */
+    margin: 0 auto; 
+    padding: 0 1.6rem;
   }
   
   section{
