@@ -1,11 +1,11 @@
 @media (min-width: 90em) and (max-width: 107em) {
   .layout {
     min-width: 100%;   /* allows layout to shrink */
-    max-width: 1700px;   /* optional */
+    max-width: 170rem;   /* optional */
     margin: 0 auto;      /* center layout */
   }
   .head-container{
-    max-width: 1440px;
+    max-width: 144rem;
     margin: 0 auto;
     padding: 0 1.6rem;
     
@@ -16,7 +16,7 @@
   }
 
   .container {
-    max-width: 1440px;   /* shrink content */
+    max-width: 144rem;   /* shrink content */
     margin: 0 auto; 
     padding: 0 1.6rem;
   }
@@ -159,14 +159,13 @@
     max-width: 1023px;
     margin: 0 auto;
     padding: 0 1.6rem;
-    background-color: red;
+    background-color: blue;
    }
 
   .container {
     max-width: 1023px;   /* shrink content */
     margin: 0 auto; 
     padding: 0 1.6rem;
-    background-color: red;
   }
   
   section{
