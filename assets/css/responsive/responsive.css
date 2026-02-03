@@ -16,7 +16,7 @@
     padding: 0 1.6rem;
   }
 
-  .section-hero {
+  section {
     background-color: yellow/* reduce vertical spacing */
   }
 }
