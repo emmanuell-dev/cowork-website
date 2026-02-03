@@ -27,11 +27,11 @@ body{
     border-radius: 4rem;
 }
 
+
 .h2s{
     font-size: 5.6rem;
     line-height: 1.3;
-    font-weight: 700;
-    text-align: center;
+    font-size: 700;
     letter-spacing: 0.2rem;
 }
 
@@ -379,19 +379,21 @@ Card Items
 General Flex
 */
 
+
 .flex{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 3rem;
+    gap: 6rem;
 }
 
 
-
-
-
-
+.flex-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
 /*
 
 
