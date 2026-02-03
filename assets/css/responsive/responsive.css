@@ -1,4 +1,4 @@
-@media (min-width: 1440px) and (max-width: 1700px) {
+@media (min-width: 90em) and (max-width: 107em) {
   .layout {
     min-width: 100%;   /* allows layout to shrink */
     max-width: 1700px;   /* optional */
@@ -19,7 +19,6 @@
     max-width: 1440px;   /* shrink content */
     margin: 0 auto; 
     padding: 0 1.6rem;
-    background-color: red;
   }
 
   
