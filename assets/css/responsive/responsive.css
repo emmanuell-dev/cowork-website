@@ -20,6 +20,10 @@
     background-color: yellow/* reduce vertical spacing */
   }
   
+  .gap{
+    margin-bottom: 0.5rem;
+  }
+  
   .tag{
     font-size: 1.6rem;
   }
