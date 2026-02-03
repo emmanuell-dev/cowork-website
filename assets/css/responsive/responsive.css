@@ -214,4 +214,8 @@
   .blog-heading{
     font-size: 2rem;
   }
+  
+  article{
+    background-color: yellow;
+  }
 }
