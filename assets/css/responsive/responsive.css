@@ -1,13 +1,19 @@
 @media (min-width: 1440px) and (max-width: 1700px) {
   .layout {
-    min-width: 1440px;   /* allows layout to shrink */
+    min-width: 100%;   /* allows layout to shrink */
     max-width: 1700px;   /* optional */
     margin: 0 auto;      /* center layout */
+  }
+  .head-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1.6rem;
   }
 
   .container {
     max-width: 1440px;   /* shrink content */
     margin: 0 auto; 
+    padding: 0 1.6rem;
   }
 
   .section-hero {
