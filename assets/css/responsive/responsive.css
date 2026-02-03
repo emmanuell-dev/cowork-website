@@ -159,7 +159,6 @@
     max-width: 1023px;
     margin: 0 auto;
     padding: 0 1.6rem;
-    background-color: blue;
    }
 
   .container {
@@ -169,6 +168,6 @@
   }
   
   section{
-    background-color: yellow;
+    
   }
 }
