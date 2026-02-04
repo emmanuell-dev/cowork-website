@@ -309,6 +309,33 @@
   margin-bottom: 3.2rem;
   background-color: yellow;
 }
+
+.hightlight{
+  position: relative;
+  z-index: 1;
+}
+
+.hightlight::before{
+  content: "";
+  position: absolute;
+  width: 3rem;
+  padding-bottom: 3rem;
+  background-color: #D3F985;
+  top: 1rem;
+  left: 3rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.seconds::before{
+background-color: #A6E8F6;
+left: 2rem;
+}
+
+.thrids::before{
+background-color: #FCBEDC;
+left: 2rem;
+}
   
   .section-testimonial{
   padding: 4rem 0;
