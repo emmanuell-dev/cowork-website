@@ -258,7 +258,7 @@
   content: "";
   position: absolute;
   width: 90%;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   border: 0.3rem solid #D3F985;
   border-radius: 55%;
   z-index: -1;
@@ -301,6 +301,14 @@
     top: 0.8rem;
     left: 0.5rem;
 }
+
+.second::before{
+    background-color: #A6E8F6;
+}
+
+.thrid::before{
+    background-color: #FCBEDC;
+}
   /*.   Flex Container          */
   
   .flex{
@@ -338,16 +346,16 @@
   width: 3rem;
   padding-bottom: 3rem;
   top: 1rem;
-  left: 3rem;
+  left: 1.5rem;
   border-radius: 50%;
 }
 
 .seconds::before{
-left: 2rem;
+left: 1.5rem;
 }
 
 .thrids::before{
-left: 2rem;
+left: 1.5rem;
 }
   
   .section-testimonial{
