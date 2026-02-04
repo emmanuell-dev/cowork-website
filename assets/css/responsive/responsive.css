@@ -709,4 +709,9 @@ left: 1.5rem;
   .blog-heading{
     font-size: 1.8rem;
   }
+  
+.footer{
+    padding: 4rem 0;
+  background-color: yellow;
+  }
 }
