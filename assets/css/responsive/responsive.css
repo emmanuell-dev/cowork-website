@@ -585,7 +585,7 @@ left: 1.5rem;
  
  .section-feature-in{
     padding: 2rem 0;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
   background-color: yellow;
   }
    .feature-img{
@@ -594,32 +594,31 @@ left: 1.5rem;
   
    .section-why{
     padding: 2rem 0;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
   background-color: yellow;
   }
   
     .card-img{
     width: 2.5rem;
     height: 2.5rem;
+    background-color: #D3F985;
   }
   
   .img-co::before{
-    content: "";
-    width: 100%;
+    content: "none";
+   /* width: 100%;
     padding-bottom: 2.5rem ;
     position: absolute;
     background-color: #D3F985;
     border-radius: 50%;
-    z-index: -1;
-    top: 0.8rem;
-    left: 0.5rem;
+    z-index: -1;*/
 }
 
-.second::before{
-    background-color: #A6E8F6;
-}
+.section-tour{
+    padding: 2rem 0;
+  margin-bottom: 3.5rem;
+  background-color: yellow;
+  }
 
-.thrid::before{
-    background-color: #FCBEDC;
-}
+
 }
