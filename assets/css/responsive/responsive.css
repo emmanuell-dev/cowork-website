@@ -743,7 +743,7 @@ left: 1.5rem;
   }
   
   .main-nav{
-    background-color: #000;
+    background-color: yellow;
     position: absolute;
     top: 0;
     left: 0;
@@ -755,13 +755,18 @@ left: 1.5rem;
   
   .nav-list{
     flex-direction: column;
+    color: white;
   }
-  
-  .a-link:link,
-.a-link:visited{
-  font-size: 4rem;
-  color: #fff;
+  .btn-black:link,
+.btn-black:visited{
+  background: none;
+    color: #fff;
+    padding: none;
+    font-size: 4rem;
+    border-radius: 2.3rem;
+    margin-right: none;
 }
+  
   
   
   
