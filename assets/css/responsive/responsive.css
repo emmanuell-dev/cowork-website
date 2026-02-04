@@ -584,16 +584,15 @@ left: 1.5rem;
  /*         */
  
  .section-feature-in{
-    padding: 2rem 0;
+    padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
   }
    .feature-img{
   height: 2.8rem;
 }
   
    .section-why{
-    padding: 2rem 0;
+    padding: 4rem 0;
   margin-bottom: 3.5rem;
   background-color: yellow;
   }
@@ -602,20 +601,16 @@ left: 1.5rem;
     width: 2.5rem;
     height: 2.5rem;
     background-color: #D3F985;
+    padding: 2rem;
+    border-radius: 1.5rem;
   }
   
   .img-co::before{
-    content: "none";
-   /* width: 100%;
-    padding-bottom: 2.5rem ;
-    position: absolute;
-    background-color: #D3F985;
-    border-radius: 50%;
-    z-index: -1;*/
+    content: none;
 }
 
 .section-tour{
-    padding: 2rem 0;
+    padding: 4rem 0;
   margin-bottom: 3.5rem;
   background-color: yellow;
   }
