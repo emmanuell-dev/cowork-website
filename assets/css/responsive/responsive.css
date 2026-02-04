@@ -604,6 +604,14 @@ left: 1.5rem;
     border-radius: 1.5rem;
   }
   
+  .second-img{
+    background-color: #A6E8F6;
+  }
+  
+  .thrid-img{
+    background-color: #FCBEDC;
+  }
+  
   .img-co::before{
     content: none;
 }
