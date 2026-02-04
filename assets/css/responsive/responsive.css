@@ -84,7 +84,21 @@
     font-size: 2rem;
   }
   
-  
+  .hightlight::before{
+  width: 3rem;
+  padding-bottom: 3rem;
+  top: 1rem;
+  left: 1.5rem;
+  border-radius: 50%;
+}
+
+.seconds::before{
+left: 1.5rem;
+}
+
+.thrids::before{
+left: 1.5rem;
+}
   
   /* 
   Flex Container 
