@@ -520,7 +520,8 @@ left: 1.5rem;
     font-size: 1.4rem;
   }
   .p--bold{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
   }
   
   .span-small{
