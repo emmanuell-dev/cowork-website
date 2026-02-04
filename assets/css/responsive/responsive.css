@@ -532,10 +532,22 @@ left: 1.5rem;
   gap: 1.5rem;
 }
 
+.btn-black:link,
+.btn-black:visited{
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+
+.btn-white:link,
+.btn-white:visited{
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
   .section-hero{
   padding: 4rem 0;
   margin-bottom: 5rem;
-  background-color: red;
 }
 
 .high-light::before{
