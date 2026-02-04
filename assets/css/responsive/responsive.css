@@ -459,6 +459,74 @@ left: 1.5rem;
     margin: 0;
     max-width: none;
   }
+   .logo{
+    font-size: 3rem;
+  }
+  
+  .footer-logo{
+    font-size: 3rem;
+  }
+  .footer-copy{
+    font-size: 1.6rem;
+  }
+  
+  .footer-heading{
+    font-size: 1.8rem;
+  }
+  
+   .a-link:link,
+  .a-link:visited{
+    font-size: 1.3rem;
+  }
+  
+  
+  .h1{
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .h1s{
+    font-size: 4rem;
+  }
+  
+    .h2s{
+    font-size: 3.5rem;
+  }
+  
+  .h2{
+   font-size: 3.5rem;
+  }
+  
+  .h-m{
+    font-weight: 700;
+  }
+  
+  .span{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    
+  }
+  
+  .h2ss{
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+  
+  .h2sss{
+    margin-bottom: 2.5rem;
+  }
+  
+  .p{
+    font-size: 1.4rem;
+  }
+  .p--bold{
+    font-size: 2.5rem;
+  }
+  
+  .span-small{
+    font-size: 1.4rem;
+  }
+  
   section{
     background-color: yellow;
   }
