@@ -627,7 +627,6 @@ left: 1.5rem;
 .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
   }
   
   .tour-video{
@@ -636,5 +635,32 @@ left: 1.5rem;
   border-radius: 2rem;
   }
 
+.section-stats{
+  padding: 4rem 0;
+  margin-bottom: 3.5rem;
+  background-color: yellow;
+}
+
+.hightlight::before{
+  content: none;
+}
+
+.section-testimonial{
+  padding: 4rem 0;
+  margin-bottom: 3.5rem;
+  background-color: yellow;
+}
+
+.testimonial{
+  font-size: 1.4rem;
+}
+
+.author-name{
+    font-size: 2rem;
+  }
+  
+  .author-title{
+    font-size: 1.2rem;
+  }
 
 }
