@@ -548,7 +548,6 @@ left: 1.5rem;
   .section-hero{
   padding: 4rem 0;
   margin-bottom: 5rem;
-  background-color: none;
 }
 
 
@@ -559,7 +558,7 @@ left: 1.5rem;
 
   
   section{
-    background-color: yellow;
+    
   }
   
   /****.Grid and Flex Goes here */
@@ -586,6 +585,5 @@ left: 1.5rem;
  .section-feature-in{
     padding: 2rem 0;
   margin-bottom: 3.2rem;
-  background-color: none;
   }
 }
