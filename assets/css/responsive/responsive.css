@@ -550,19 +550,10 @@ left: 1.5rem;
   margin-bottom: 5rem;
 }
 
-.high-light{
-  position: relative;
-  z-index: 1;
-}
+
 
 .high-light::before{
-  content: "";
-  width: 90%;
-  position: absolute;
-  padding-bottom: 3.5rem;
-  border: 0.3rem solid blue;
-  border-radius: 55%;
-  z-index: -1;
+  content: none;
 }
 
   
