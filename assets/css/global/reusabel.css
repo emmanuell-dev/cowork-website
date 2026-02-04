@@ -147,6 +147,22 @@ body{
     color: #1a1a1a;
 }
 
+.mobile-nav{
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.mobile-nav img{
+    width: 5.2rem;
+    height: 5.2rem;
+}
+
+.mobile-nav .close-nav{
+    display: none;
+}
+
 .btn-black:link,
 .btn-black:visited{
     background-color: #1a1a1a;
