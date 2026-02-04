@@ -560,4 +560,25 @@ left: 1.5rem;
   section{
     background-color: yellow;
   }
+  
+  /****.Grid and Flex Goes here */
+  
+  
+  .grid{
+    gap: 2.5rem;
+  }
+  
+  .grids{
+    gap: 4rem;
+  }
+  
+  .flex{
+    gap: 3rem;
+  }
+  
+  .span-flex{
+    gap: 3rem;
+  }
+  
+ /*         */;
 }
