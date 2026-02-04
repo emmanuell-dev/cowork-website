@@ -539,8 +539,10 @@ left: 1.5rem;
 }
 
 .high-light::before{
+  content: "";
+  width: 90%;
   padding-bottom: 3.5rem;
-  border: 0.3rem solid #D3F985;
+  border: 0.3rem solid red;
   border-radius: 55%;
   z-index: -1;
 }
