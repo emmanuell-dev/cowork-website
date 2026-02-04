@@ -638,7 +638,6 @@ left: 1.5rem;
 .section-stats{
   padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
 }
 
 .hightlight::before{
@@ -648,7 +647,6 @@ left: 1.5rem;
 .section-testimonial{
   padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
 }
 
 .testimonial{
@@ -666,7 +664,6 @@ left: 1.5rem;
   .section-faq{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
   }
   
    .faq-description{
@@ -687,11 +684,15 @@ left: 1.5rem;
  line-height: 1.5;
   font-weight: 400;
   }
+  
+  .section-cta{
+    padding: 4rem 0;
+  margin-bottom: 3.5rem;
+  }
 
 .section-blog{
   padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
 }
   
   .gap{
@@ -711,7 +712,7 @@ left: 1.5rem;
   }
   
 .footer{
-    padding: 4rem 0;
-  background-color: yellow;
+    padding-top: 4rem;
+    padding-bottom: 0;
   }
 }
