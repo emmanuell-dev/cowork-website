@@ -535,6 +535,7 @@ left: 1.5rem;
   .section-hero{
   padding: 4rem 0;
   margin-bottom: 5rem;
+  background-color: red;
 }
 
 .high-light::before{
