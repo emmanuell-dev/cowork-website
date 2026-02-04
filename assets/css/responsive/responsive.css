@@ -87,8 +87,8 @@
   .hightlight::before{
   width: 3rem;
   padding-bottom: 3rem;
-  top: 1rem;
-  left: 1.5rem;
+  top: 1.5rem;
+  left: 2.5rem;
   border-radius: 50%;
 }
 
@@ -265,7 +265,6 @@ left: 1.5rem;
   .section-hero{
   padding: 6rem 0;
   margin-bottom: 7rem;
-  background-color: yellow;
 }
 
 .high-light::before{
@@ -282,7 +281,6 @@ left: 1.5rem;
   .section-feature-in{
     padding: 3rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
   }
   .span-flex{
     gap: 3rem;
@@ -296,7 +294,6 @@ left: 1.5rem;
   .section-why{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
   }
   
   .card-img{
@@ -340,7 +337,6 @@ left: 1.5rem;
   .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
   }
   
   .tour-video{
@@ -352,7 +348,6 @@ left: 1.5rem;
   .section-stats{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
 }
 
 
@@ -375,7 +370,6 @@ left: 1.5rem;
   .section-testimonial{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
 }
   
    .testimonial{
@@ -392,7 +386,6 @@ left: 1.5rem;
   .section-faq{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
-  background-color: yellow;
   }
   
     .faq-description{
