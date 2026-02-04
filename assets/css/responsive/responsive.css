@@ -467,7 +467,7 @@ left: 1.5rem;
     font-size: 3rem;
   }
   .footer-copy{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   
   .footer-heading{
@@ -481,7 +481,7 @@ left: 1.5rem;
   
   
   .h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
   }
   
@@ -526,6 +526,24 @@ left: 1.5rem;
   .span-small{
     font-size: 1.4rem;
   }
+  
+  
+.nav-list{
+  gap: 1.5rem;
+}
+
+  .section-hero{
+  padding: 4rem 0;
+  margin-bottom: 5rem;
+}
+
+.high-light::before{
+  padding-bottom: 3.5rem;
+  border: 0.3rem solid #D3F985;
+  border-radius: 55%;
+  z-index: -1;
+}
+
   
   section{
     background-color: yellow;
