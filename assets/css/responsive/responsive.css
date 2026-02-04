@@ -482,7 +482,7 @@ left: 1.5rem;
   
   .h1{
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .h1s{
@@ -513,7 +513,7 @@ left: 1.5rem;
   }
   
   .h2sss{
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
   
   .p{
@@ -570,15 +570,15 @@ left: 1.5rem;
   }
   
   .grids{
-    gap: 4rem;
+    gap: 2.5rem;
   }
   
   .flex{
-    gap: 3rem;
+    gap: 2.5rem;
   }
   
   .span-flex{
-    gap: 3rem;
+    gap: 2.5rem;
   }
   
  /*         */
@@ -594,7 +594,6 @@ left: 1.5rem;
    .section-why{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
-  background-color: yellow;
   }
   
     .card-img{
