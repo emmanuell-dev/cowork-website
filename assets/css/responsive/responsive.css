@@ -734,3 +734,19 @@ left: 1.5rem;
     margin: 0;
     max-width: none;
   }
+    .logo{
+    font-size: 3rem;
+  }
+  
+  .footer-logo{
+    font-size: 3rem;
+  }
+  .footer-copy{
+    font-size: 1.4rem;
+  }
+  
+  .footer-heading{
+    font-size: 1.8rem;
+  }
+  
+}
