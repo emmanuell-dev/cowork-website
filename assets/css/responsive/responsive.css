@@ -150,7 +150,7 @@ left: 1.5rem;
   }
   
   .author-title{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .footer{
     padding-bottom: 0;
@@ -255,7 +255,7 @@ left: 1.5rem;
     margin-bottom: 2.5rem;
   }
   .p--bold{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
   
   .span-small{
@@ -524,7 +524,7 @@ left: 1.5rem;
     font-size: 1.4rem;
   }
   .p--bold{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
   
@@ -720,7 +720,7 @@ left: 1.5rem;
 }
 
 
-@media (min-width: 559px) and (max-width: 990px){
+@media (min-width: 559px) and (max-width: 992px){
 
   
   .layout{
@@ -743,11 +743,13 @@ left: 1.5rem;
     max-width: none;
   }
     .logo{
-    font-size: 8rem;
+    font-size: 5rem;
     z-index: 20;
   }
   
-
+ .nav-open .logo{
+  color: #fff;
+}
   
   .mobile-nav{
     display: block;
@@ -780,7 +782,7 @@ left: 1.5rem;
  .main-nav-link:link,
 .main-nav-link:visited{
   color: #fff;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
  .main-nav-link:hover,
