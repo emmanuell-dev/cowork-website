@@ -4,24 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | Cowork</title>
   <link rel="stylesheet" href="assets/css/layouts/main-home.css" />
   <link rel="stylesheet" href="assets/css/global/reusabel.css" />
     <link rel="stylesheet" href="assets/css/responsive/responsive.css" />
-  
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"> </script>
+     <script defer src="assets/javascript/main.js"></script>
+    <title>cowork</title>
   </head>
 <body>
   <div class="layout">
-    <header class="head nav-open ">
+    <header class="head">
       <span class="logo">Cowork</span>
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a class="main-nav-link" href="index.html">Home</a></li>
-          <li><a class="main-nav-link " href="pages/about.html">About</a></li>
-          <li><a class="main-nav-link" href="pages/spaces.html">Spaces</a></li>
-          <li><a class="main-nav-link" href="pages/pricing.html">Pricing</a></li>
-          <li><a class="main-nav-link" href="pages/blog.html">Blog</a></li>
-          <li><a class="main-nav-link main-nav-cta" href="pages/book-tour.html">Book a Tour</a></li>
+          <li><a class="main-nav-link active" href="index.html">Home</a></li>
+          <li><a class="main-nav-link active " href="pages/about.html">About</a></li>
+           <li><a class="main-nav-link active" href="#testimonial">Testimonial</a></li>
+          <li><a class="main-nav-link active" href="pages/spaces.html">Spaces</a></li>
+          <li><a class="main-nav-link active" href="pages/pricing.html">Pricing</a></li>
+          <li><a class="main-nav-link active" href="pages/blog.html">Blog</a></li>
+          <li><a class="main-nav-link main-nav-cta active" href="pages/book-tour.html">Book a Tour</a></li>
         </ul>
       </nav>
       <button class="mobile-nav">
@@ -31,7 +33,7 @@
   </header>
   <main>
     <section class="section-hero">
-      <div class="container grid grid-2-col">
+      <div class="container grid grid-2-col mobile-grid">
         <div class="hero-text-box">
           <h1 class="heading h1">Elevate Your Workspace with <span class="high-light">Cowork</span></h1>
           <p class="p p-h">Welcome to Cowork – where innovation meets collaboration in the heart of productivity!  Unleash 🚀 your potential in our thoughtfully designed coworking spaces, tailored to inspire creativity and foster connections</p>
@@ -44,7 +46,7 @@
       </div>
     </section>
     <section class="section-feature-in">
-      <div class="container">
+      <div class="container containers">
         <div class="span-flex">
        <span class="span flex-s">Trusted by Leading Companies</span>
        <div class="feature-in-img">
@@ -96,8 +98,9 @@
        <span class="span">A Virtual Tour</span>
        <div class="flex-group">
        <h2 class="heading h2s h2s-min">Explore Cowork Through Our Lens</h2>
-       <p class="p p-h">Experience the essence of Cowork before setting foot in our dynamic spaces. Our immersive video tour gives you a sneak<br> peek into the vibrant atmosphere, cutting-edge facilities, and collaborative energy that define the Cowork experience.</p>
+       <p class="p p-h">Experience the essence of Cowork before setting foot in our dynamic spaces. Our immersive video tour gives you a sneak peek into the vibrant atmosphere, cutting-edge facilities, and collaborative energy that define the Cowork experience.</p>
        </div>
+     
        <iframe 
   class="tour-video" 
   src="https://www.youtube.com/embed/_4wKbNQ4QI8?si=d5qk8Od9zep0MnZT&mute=1&controls=1" 
@@ -115,20 +118,20 @@
        <div class="stats-text-box">
          <span class="span span-s">Cowork in Numbers</span>
          <h2 class="heading h2ss h-ms">Transformative Statistics That Speak Volumes</h2>
-                <div class="grid grid-2-col">
+                <div class="grid grid-2-col stats-col">
        <div class="stats-1">
-       <p class="heading h2ss h-m hightlight">240%</p>
+       <p class="heading h2ss h-m hightlight ">240%</p>
        <span class="span-small">Community Growth</span>
        </div>
        <div class="stats-2">
        <p class="heading h2ss h-m hightlight seconds">99%</p>
        <span class="span-small">Technology Uptime</span>
        </div>
-<div class="stats-2">
+<div class="stats-3">
        <p class="heading h2ss h-m hightlight thrids">50+</p>
        <span class="span-small">Happy Members</span>
        </div>
-<div class="stats-2">
+<div class="stats-4">
        <p class="heading h2ss h-m hightlight fourth">100%</p>
        <span class="span-small">Renewable Energy Sources  </span>
        </div>
@@ -139,14 +142,15 @@
        </div>
       </div>
     </section>
-    <section class="section-testimonial">
+    <section class="section-testimonial" id="testimonial">
       <div class="container">
         <div class="span-flex">
         <span class="span flex-s">Cowork in Words</span>
        <h2 class="heading h2 h2sss flex-s">Hear It from Our Clients</h2>
        </div>
+       
        <div class="grid-testimonal">
-        <div class="cards cards-1">
+        <div class="cards cards-1" id="testslider">
           <figure class="flex">
           <img src="assets/images/home/testimonial/customer-1.jpg" alt="cowork customer photo" class="cards-img" />
           <blockquote class="testimonial">"The 24/7 access and secure facilities have been incredibly convenient for my team s flexible schedules. We love the coworking space!"</blockquote>
@@ -275,7 +279,7 @@ Alex Nguyen
     <div class="container flex">
       <div class="flex-group">
      <h3 class="heading h1s">Seize the Moment Join Cowork Today!</h3>
-     <p class="p">Uncover the transformative power of Cowork as echoed by those who’ve made it their professional haven. <br> This is more than finding a desk; it’s discovering a community that fuels your journey to success.</p>
+     <p class="p">Uncover the transformative power of Cowork as echoed by those who’ve made it their professional haven. This is more than finding a desk; it’s discovering a community that fuels your journey to success.</p>
      </div>
      <a class="a-link btn-black" href="pages/book-tour.html">Book a Tour</a>
     </div>
@@ -372,7 +376,7 @@ Alex Nguyen
 <footer class="footer">
     <div class="container">
       <div class="cols">
-      <div class="grids grid-3-col">
+      <div class="grids grid-3-col gaps">
       <div class="contact-col col">
     <span class="footer-logo">Cowork</span>
     <p class="footer-copy">Join our newsletter to stay up to date on features and releases.</p>
@@ -403,7 +407,7 @@ Alex Nguyen
        </ul>
      </nav>
      </div>
-<p class="footer-copy">&copy; 2026 <strong>cowork</strong>. All rights reserved | Design by <a class="a-footer" href="https://github.com/emmanuell-dev" target="_blank" rel="noopener noreferrer">Emmanuel</a> </p>
+<p class="footer-copy">&copy; <span class="year">2026</span><strong> cowork</strong>. All rights reserved | Design by <a class="a-footer" href="https://github.com/emmanuell-dev" target="_blank" rel="noopener noreferrer"><strong>Emmanuel</strong></a> </p>
     </div>
     </div>
     </div>

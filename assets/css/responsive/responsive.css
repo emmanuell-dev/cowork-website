@@ -775,13 +775,17 @@ left: 1.5rem;
   
   .container{
     width: 100%;
-    padding: 0 2.5rem;
+    padding: 0 5rem;
     margin: 0;
     max-width: none;
   }
     .logo{
     font-size: 5rem;
     z-index: 20;
+  }
+  
+  .footer-logo{
+    font-size: 5rem;
   }
   
  .nav-open .logo{
@@ -802,7 +806,7 @@ left: 1.5rem;
     display: flex;
     justify-content: center;
     transform: translateX(100%);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
     opacity: 0;
     pointer-events: none;
     visibility: none;
@@ -820,11 +824,13 @@ left: 1.5rem;
 .main-nav-link:visited{
   color: #fff;
   font-size: 3rem;
+  transition: all 0.3s linear;
 }
 
  .main-nav-link:hover,
 .main-nav-link:active{
   color: #aaa;
+  transform: translateX(30px);
 }
 
 
@@ -868,30 +874,249 @@ left: 1.5rem;
   color: #fff;
   
 }
+
+.flex{
+  gap: 4rem;
+  text-align: center;
+}
+
+.grid{
+  gap: 8rem;
+}
+
+.grid-2-col{
+  grid-template-columns: 1fr;
+}
+
+.grid-3-col{
+  grid-template-columns: 1fr;
+}
+
+.hero-text-box{
+  text-align: center;
+}
+
+
+
+.h1{
+  font-size: 7.4rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.p{
+  font-size: 2.4rem;
+}
+
+
+/* Section Feature In.     */
+
+.containers{
+   overflow: hidden;
+   position: relative;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -mask-imagd: linear-gradient(to right, transparent, black 10%, black 90%, transparent)
+}
+
+.feature-in-img{
+  gap: 8rem;
+  animation: scroll 18s linear infinite;
+}
+
+.feature-img{
+  height: 5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(0.9);
+  opacity: 100%;
+}
+
+.containers:hover .feature-in-img{
+ animation-play-state: paused;
+}
+
+.feature-img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1);
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+  
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+/*.             */
+
+
+/*.     Section Why Choose Us. */
+  
+.span-flex{
+  gap: 8rem;
+}
+  
+  
+  /*.         */
+  
+  
+  /*.      Section Tour.    */
+  
+
+  .tour-video{
+  width: 100%;
+  height: 50rem;
+  border-radius: 4rem;
+  }
+  
+  
+  /*.    Section Stats.    */
+  
+  .span-s{
+    text-align: center;
+    display: block;
+  }
+  
+  .h-ms{
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .stats-col{
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .stats-1,
+  .stats-3{
+    justify-self: end;
+  }
+  
+  .h-m{
+    font-size: 8rem;
+    font-weight: 800;
+  }
+  
+  .span-small{
+    font-size: 2.5rem;
+  }
+  
+  .grid-testimonal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-1,
+  .cards-2,
+  .cards-3,
+  .cards-4,
+  .cards-5{
+  align-self: auto;
+  width: 70%;
+  cursor: pointer;
+    transition: all 0.4s linear;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+ .grid-testimonal .cards:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
+    
+ }
+  
+  .testimonial{
+    font-size: 2.4rem;
+  }
   
   
   
+  /*.         */
+
+
+/*.    Section Blog.    */
   
   
+.gap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+  .gap article{
+    width: 70%;
+  }
+  
+  .blog-img{
+    border-radius: 2rem;
+  }
   
   
+  /*.        Footer Section.  */
+  
+  .gaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .contact-col{
+    text-align: center;
+  }
+  
+  .footer-copy{
+    font-size: 2.4rem;
+  }
   
   
+  .cta{
+    flex-direction: column;
+    align-items: center;
+  }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  .cta input{
+    padding: 2rem 0;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #fff;
+  }
+  .cta input:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+.cta .form-btn{
+    padding: 1.2rem 2.4rem;
+    font-size: 3rem;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-heading{
+  font-size: 3rem;
+}
+
+.footer-link{
+  display: flex;
+  flex-direction: columns;
+  align-items: center;
+}
+
+.a-footer:link,
+.a-footer:visited{
+  font-size: 2.5rem;
+}
+
+.footer-copy{
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
   
 }

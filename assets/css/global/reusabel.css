@@ -6,11 +6,11 @@
 
 html{
     font-size: 62.5%;
-   /* overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 body{
     background-color: #F1F3F5;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 .layout{
@@ -111,6 +111,22 @@ body{
   justify-content: space-between;
   align-items: center;
  height: 6rem;
+}
+
+.sticky .head{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 8rem;
+    background-color: rgba(241, 243, 245, 0.8);
+    z-index: 999;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sticky .section-hero{
+    margin-top: 4rem;
 }
 
 
@@ -295,7 +311,7 @@ body{
     background-color: #1a1a1a;
     padding: 0.8rem 1.2rem;
     font-size: 1.6rem;
-        border-bottom: 0.1rem solid #ccc;
+        border-bottom: 0.1rem solid #fff;
     color: #fff;
     font-size: 1.6rem;
 }

@@ -4,29 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | Cowork</title>
-  <link rel="stylesheet" href="../assets/css/global/reusabel.css" />
   <link rel="stylesheet" href="../assets/css/layouts/main-home.css" />
+  <link rel="stylesheet" href="../assets/css/global/reusabel.css" />
+    <link rel="stylesheet" href="../assets/css/responsive/responsive.css" />
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"> </script>
+     <script defer src="../assets/javascript/main.js"></script>
+    <title>cowork | Flexible Desks for Teams & Freelancers</title>
   </head>
 <body>
   <div class="layout">
     <header class="head">
-    <div class="head-container">
       <span class="logo">Cowork</span>
-      <nav>
+      <nav class="main-nav">
         <ul class="nav-list">
-          <li><a class="a-link nav-link" href="../index.html">Home</a></li>
-          <li><a class="a-link nav-link" href="about.html">About</a></li>
-          <li><a class="a-link nav-link" href="spaces.html">Spaces</a></li>
-          <li><a class="a-link nav-link" href="pricing.html">Pricing</a></li>
-          <li><a class="a-link nav-link" href="blog.html">Blog</a></li>
-          <li><a class="a-link btn-black" href="book-tour.html">Book a Tour</a></li>
+          <li><a class="main-nav-link active" href="../index.html">Home</a></li>
+          <li><a class="main-nav-link active " href="../pages/about.html">About</a></li>
+           <li><a class="main-nav-link active" href="../index.html#testimonial">Testimonial</a></li>
+          <li><a class="main-nav-link active" href="../pages/spaces.html">Spaces</a></li>
+          <li><a class="main-nav-link active" href="../pages/pricing.html">Pricing</a></li>
+          <li><a class="main-nav-link active" href="../pages/blog.html">Blog</a></li>
+          <li><a class="main-nav-link main-nav-cta active" href="../pages/book-tour.html">Book a Tour</a></li>
         </ul>
       </nav>
-    </div>
+      <button class="mobile-nav">
+       <ion-icon class="menu-icon" name="menu-outline"></ion-icon> 
+       <ion-icon class="menu-icon" name="close-outline"></ion-icon>
+      </button>
   </header>
-  
-  <footer class="footer">
+
+<footer class="footer">
     <div class="container">
       <div class="cols">
       <div class="grids grid-3-col">
@@ -60,11 +66,13 @@
        </ul>
      </nav>
      </div>
-<p class="footer-copy">&copy; 2026 <strong>cowork</strong>. All rights reserved | Design by <a class="a-footer" href="https://github.com/emmanuell-dev" target="_blank" rel="noopener noreferrer">Emmanuel</a> </p>
+<p class="footer-copy">&copy; <span class="year">2026</span><strong> cowork</strong>. All rights reserved | Design by <a class="a-footer" href="https://github.com/emmanuell-dev" target="_blank" rel="noopener noreferrer"><strong>Emmanuel</strong></a> </p>
     </div>
     </div>
     </div>
   </footer>
   </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
