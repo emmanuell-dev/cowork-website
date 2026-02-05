@@ -8,27 +8,26 @@
   <link rel="stylesheet" href="assets/css/layouts/main-home.css" />
   <link rel="stylesheet" href="assets/css/global/reusabel.css" />
     <link rel="stylesheet" href="assets/css/responsive/responsive.css" />
+  
   </head>
 <body>
   <div class="layout">
-    <header class="head">
-    <div class="head-container">
+    <header class="head nav-open ">
       <span class="logo">Cowork</span>
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a class="a-links nav-link" href="index.html">Home</a></li>
-          <li><a class="a-links nav-link" href="pages/about.html">About</a></li>
-          <li><a class="a-links nav-link" href="pages/spaces.html">Spaces</a></li>
-          <li><a class="a-links nav-link" href="pages/pricing.html">Pricing</a></li>
-          <li><a class="a-links nav-link" href="pages/blog.html">Blog</a></li>
-          <li><a class="a-links btn-black" href="pages/book-tour.html">Book a Tour</a></li>
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link " href="pages/about.html">About</a></li>
+          <li><a class="main-nav-link" href="pages/spaces.html">Spaces</a></li>
+          <li><a class="main-nav-link" href="pages/pricing.html">Pricing</a></li>
+          <li><a class="main-nav-link" href="pages/blog.html">Blog</a></li>
+          <li><a class="main-nav-link main-nav-cta" href="pages/book-tour.html">Book a Tour</a></li>
         </ul>
       </nav>
       <button class="mobile-nav">
-        <img src="assets/images/global/icons/menu-outline.svg" />
-        <img src="assets/images/global/icons/close-outline.svg" class="close-nav" />
+       <ion-icon class="menu-icon" name="menu-outline"></ion-icon> 
+       <ion-icon class="menu-icon" name="close-outline"></ion-icon>
       </button>
-    </div>
   </header>
   <main>
     <section class="section-hero">
@@ -65,14 +64,14 @@
         <div class="grid grid-3-col">
           <div class="card card-1">
             <div class="img-co">
-            <img src="assets/images/global/icons/planet.svg" alt="planet" class="card-img"/>
+              <ion-icon class="card-img" name="planet"></ion-icon>
             </div>
             <p class="p--bold"><strong>Flexible Spaces</strong></p>
             <p class="p">Whether you're a solopreneur, startup, or an established enterprise, our flexible office solutions cater to your evolving needs.</p>
           </div>
           <div class="card card-2">
             <div class="img-co second">
-              <img src="assets/images/global/icons/card.svg" alt="card logo" class="card-img second-img" />
+              <ion-icon class="card-img second-img" name="card"></ion-icon>
             </div>
              <p class="p--bold">
                 Transparent Pricing
@@ -81,7 +80,7 @@
           </div>
           <div class="card card-3">
             <div class="img-co thrid">
-              <img src="assets/images/global/icons/member.svg" alt="member icon" class="card-img thrid-img" />
+              <ion-icon class="card-img third-img" name="person-add"></ion-icon>
             </div>
              <p class="p--bold">
                 Tailored Memberships
@@ -146,7 +145,7 @@
         <span class="span flex-s">Cowork in Words</span>
        <h2 class="heading h2 h2sss flex-s">Hear It from Our Clients</h2>
        </div>
-       <div class="grid grid-3-col margins">
+       <div class="grid-testimonal">
         <div class="cards cards-1">
           <figure class="flex">
           <img src="assets/images/home/testimonial/customer-1.jpg" alt="cowork customer photo" class="cards-img" />
@@ -188,7 +187,6 @@
           </div>
           </figure>
         </div>
-       <div class="flex-card">
          <div class="cards cards-4">
            <figure class="flex">
       <img src="assets/images/home/testimonial/customer-4.jpg" alt="cowork customer photo" class="cards-img" />
@@ -216,7 +214,6 @@ Alex Nguyen
           </figure>
         </div> 
        </div>
-       </div>
       </div>
     </section>
     
@@ -234,35 +231,35 @@ Alex Nguyen
       <div class="faq-question-answer">
          <div class="faq-questions open">
            <h3 class="thrid-heading">How flexible are Cowork’s membership plans?</h3>
-           <img src="assets/images/global/icons/down-cirlce.svg" alt="arrow down" class="faq-img" />
+<ion-icon class="faq-img" name="chevron-down-circle-outline"></ion-icon>
            <div class="hidden-box">
              <p class="faq-answer">Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
            </div>
          </div>
          <div class="faq-questions open">
            <h3 class="thrid-heading">What kind of events and networking does Cowork provide?</h3>
-           <img src="assets/images/global/icons/down-cirlce.svg" alt="arrow down" class="faq-img" />
+<ion-icon class="faq-img" name="chevron-down-circle-outline"></ion-icon>
            <div class="hidden-box">
              <p class="faq-answer">Cowork fosters collaboration through curated events, community activities, and networking opportunities that bring members together. These events are designed to encourage knowledge sharing, professional growth, and meaningful connections within a vibrant coworking community.</p>
            </div>
          </div> 
          <div class="faq-questions open">
            <h3 class="thrid-heading">Can I tour the Cowork space before committing to a membership?</h3>
-           <img src="assets/images/global/icons/down-cirlce.svg" alt="arrow down" class="faq-img" />
+<ion-icon class="faq-img" name="chevron-down-circle-outline"></ion-icon>
            <div class="hidden-box">
              <p class="faq-answer">Yes. Cowork provides an opportunity to explore its spaces before making a decision. Through an immersive virtual tour, you can experience the atmosphere, design, and facilities of Cowork and get a feel for the environment before committing.</p>
            </div>
          </div> 
          <div class="faq-questions open">
            <h3 class="thrid-heading">Is Cowork suitable for remote teams and distributed workforces?</h3>
-           <img src="assets/images/global/icons/down-cirlce.svg" alt="arrow down" class="faq-img" />
+<ion-icon class="faq-img" name="chevron-down-circle-outline"></ion-icon>
            <div class="hidden-box">
              <p class="faq-answer">Absolutely. Cowork is designed to support flexible and modern work styles. With secure 24/7 access, collaborative open spaces, and private offices, it accommodates remote teams and distributed workforces that need both collaboration and focused work environments.</p>
            </div>
          </div> 
 <div class="faq-questions open">
            <h3 class="thrid-heading">What measures does Cowork take for environmental sustainability?</h3>
-           <img src="assets/images/global/icons/down-cirlce.svg" alt="arrow down" class="faq-img" />
+<ion-icon class="faq-img" name="chevron-down-circle-outline"></ion-icon>
            <div class="hidden-box">
              <p class="faq-answer">Sustainability is a core part of Cowork’s mission. The spaces are powered by 100% renewable energy sources, reflecting a commitment to environmentally responsible operations while maintaining high performance and reliability.</p>
            </div>
@@ -312,10 +309,7 @@ Alex Nguyen
             <span class="tag time">7 min read</span>
           </div>
           <h3 class="blog-heading">How Flexible Workspaces Are Changing Modern Careers</h3>
-          <a class="blog-btn" href="blog/trend-2.html">Read article 
-           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="blog-icon">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
+          <a class="blog-btn" href="blog/trend-2.html">Read article  <ion-icon class="blog-icon" name="chevron-forward-outline"></ion-icon>
           </a>
           </div>
         </article>
@@ -328,9 +322,7 @@ Alex Nguyen
           </div>
           <h3 class="blog-heading">Mastering Productivity: Tips from Cowork's High Achievers</h3>
           <a class="blog-btn" href="blog/productivity-1.html">Read article 
-           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="blog-icon">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
+          <ion-icon class="blog-icon" name="chevron-forward-outline"></ion-icon>
           </a>
           </div>
         </article>
@@ -342,10 +334,7 @@ Alex Nguyen
             <span class="tag time">10 min read</span>
           </div>
           <h3 class="blog-heading">Tech Talk: The Backbone of Cowork's Seamless Experience</h3>
-          <a class="blog-btn" href="blog/talk-1.html">Read article
-           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="blog-icon">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
+          <a class="blog-btn" href="blog/talk-1.html">Read article <ion-icon class="blog-icon" name="chevron-forward-outline"></ion-icon>
           </a>
           </div>
         </article>
@@ -420,5 +409,7 @@ Alex Nguyen
     </div>
   </footer>
   </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

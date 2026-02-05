@@ -6,9 +6,11 @@
 
 html{
     font-size: 62.5%;
+   /* overflow-x: hidden;*/
 }
 body{
     background-color: #F1F3F5;
+    /*overflow-x: hidden;*/
 }
 
 .layout{
@@ -90,7 +92,7 @@ body{
     line-height: 1.5;
     color: #1a1a1a;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 .container{
@@ -101,19 +103,16 @@ body{
 }
 
 .head{
-    padding: 3rem 0;
-}
-
-.head-container{
-  max-width: 170rem;
+    padding: 3rem 2.4rem;
+    max-width: 170rem;
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
  height: 6rem;
- padding: 0 2.4rem;
 }
+
 
 .logo{
     font-size: 8rem;
@@ -131,6 +130,56 @@ body{
   align-items: center;
 }
 
+.main-nav-link:link,
+.main-nav-link:visited{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #313131;
+    transition: all 0.3s linear;
+    
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #000;
+}
+
+.main-nav-cta:link,
+.main-nav-cta:visited{
+    background-color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    border-radius: 4rem;
+}
+
+.main-nav-cta:hover,
+.main-nav-cta:active{
+    background-color: #fff;
+    box-shadow: 0 0 0 0.1rem #1a1a1a;
+    color: #1a1a1a;
+}
+
+.mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icon{
+    height: 5.8rem;
+    width: 5.8rem;
+    color: #1a1a1a;
+}
+
+.menu-icon[name="close-outline"]{
+    display: none;
+}
+
+
+
 .a-link:link,
 .a-link:visited{
     display: inline-block;
@@ -141,39 +190,16 @@ body{
    transition: all 0.3s linear;
 }
 
-.a-links:link,
-.a-links:visited{
-    display: inline-block;
-   text-decoration: none;
-   font-size: 1.6rem;
-   color: #313131;
-   font-weight: 500;
-   transition: all 0.3s linear;
-}
 
 
 
 
-.nav-link:hover,
-.nav-link:active{
-    color: #1a1a1a;
-}
 
-.mobile-nav{
-    display: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
 
-.mobile-nav img{
-    width: 5.2rem;
-    height: 5.2rem;
-}
 
-.mobile-nav .close-nav{
-    display: none;
-}
+
+
+
 
 .btn-black:link,
 .btn-black:visited{
@@ -375,33 +401,18 @@ Card Items
 }
 
 .card-img{
-    width: 6rem;
-    height: 6rem;
-}
-
-.img-co{
-    position: relative;
-    z-index: 1;
-}
-
-.img-co::before{
-    content: "";
-    width: 100%;
-    padding-bottom: 5rem ;
-    position: absolute;
+    width: 7rem;
+    height: 7rem;
     background-color: #D3F985;
+    padding: 2rem;
     border-radius: 50%;
-    z-index: -1;
-    top: 0.8rem;
-    left: 0.5rem;
 }
 
-.second::before{
-    background-color: #A6E8F6;
-}
-
-.thrid::before{
+.second-img{
     background-color: #FCBEDC;
+}
+.third-img{
+    background-color: #A6E8F6;
 }
 
 /*

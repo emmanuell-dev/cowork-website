@@ -1,10 +1,10 @@
 @media (min-width: 1440px) and (max-width: 1700px) {
   .layout {
-    min-width: 100%;   /* allows layout to shrink */
-    max-width: 1700px;   /* optional */
-    margin: 0 auto;      /* center layout */
+    min-width: 100%;
+    max-width: 1700px;   
+    margin: 0 auto; 
   }
-  .head-container{
+  .head{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 1.6rem;
@@ -28,17 +28,13 @@
   }
 
   .container {
-    max-width: 1440px;   /* shrink content */
+    max-width: 1440px;  
     margin: 0 auto; 
     padding: 0 1.6rem;
   }
 
   
-  /* 
-  
-  Headings resize 
-  
-  */
+
   
   .h1{
     font-size: 5.4rem;
@@ -72,13 +68,19 @@
   }
   
   .p--bold{
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   
   .a-link:link,
   .a-link:visited{
     font-size: 1.3rem;
   }
+  
+  .main-nav-link:link,
+.main-nav-link:visited{
+    font-size: 1.3rem;
+    
+}
   
   .span-small{
     font-size: 2rem;
@@ -100,10 +102,7 @@ left: 1.5rem;
 left: 1.5rem;
 }
   
-  /* 
-  Flex Container 
-  
-  */
+
   
   .faq-description{
     font-size: 1.6rem;
@@ -124,10 +123,7 @@ left: 1.5rem;
   font-weight: 400;
   }
 
-  /*
-  grid-resize for blog
-  
-  */
+
   
   
   .gap{
@@ -144,12 +140,7 @@ left: 1.5rem;
   .blog-heading{
     font-size: 2.5rem;
   }
-  
-  /*
-  
-  section testimonial 
-  */
-  
+
   .testimonial{
     font-size: 1.6rem;
   }
@@ -164,22 +155,27 @@ left: 1.5rem;
   .footer{
     padding-bottom: 0;
   }
-}
+} 
 
 
 
-/****** For Screens size of 1024px to 1430px 
+/****** For Screens size of 1024px to 1430px */
 
 
-*/
+
 @media (min-width: 1270px) and (max-width: 1430px){
-/*  html{
-    font-size: 56.25%;
-  }*/
+
   
   .layout{
     width: 100%;
     min-width: 0;
+  }
+  .head{
+  width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0 2.5rem;
+    
   }
   
   .container{
@@ -208,6 +204,12 @@ left: 1.5rem;
   .a-link:visited{
     font-size: 1.3rem;
   }
+  
+  .main-nav-link:link,
+.main-nav-link:visited{
+    font-size: 1.3rem;
+    
+}
   
   
   .h1{
@@ -247,13 +249,13 @@ left: 1.5rem;
   }
   
   .p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .p-h{
     margin-bottom: 2.5rem;
   }
   .p--bold{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   
   .span-small{
@@ -299,32 +301,21 @@ left: 1.5rem;
   margin-bottom: 3.2rem;
   }
   
-  .card-img{
-    width: 3rem;
-    height: 3rem;
-  }
-  
-  .img-co::before{
-    content: "";
-    width: 100%;
-    padding-bottom: 3rem ;
-    position: absolute;
+.card-img{
+    width: 5rem;
+    height: 5rem;
     background-color: #D3F985;
+    padding: 2rem;
     border-radius: 50%;
-    z-index: -1;
-    top: 0.8rem;
-    left: 0.5rem;
 }
 
-.second::before{
+.second-img{
+    background-color: #FCBEDC;
+}
+.third-img{
     background-color: #A6E8F6;
 }
 
-.thrid::before{
-    background-color: #FCBEDC;
-}
-  /*.   Flex Container          */
-  
   .flex{
     gap: 4rem;
   }
@@ -336,7 +327,7 @@ left: 1.5rem;
   
   
   
-  /*.                */
+
   .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
@@ -447,13 +438,17 @@ left: 1.5rem;
 
 
 @media (min-width: 1023px) and (max-width: 1260px){
-/*  html{
-    font-size: 56.25%;
-  }*/
-  
+
   .layout{
     width: 100%;
     min-width: 0;
+  }
+  .head{
+  width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0 2.5rem;
+    
   }
   
   .container{
@@ -481,6 +476,12 @@ left: 1.5rem;
   .a-link:visited{
     font-size: 1.3rem;
   }
+  
+  .main-nav-link:link,
+.main-nav-link:visited{
+    font-size: 1.3rem;
+    
+}
   
   
   .h1{
@@ -523,8 +524,8 @@ left: 1.5rem;
     font-size: 1.4rem;
   }
   .p--bold{
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 700;
   }
   
   .p-h{
@@ -572,7 +573,8 @@ left: 1.5rem;
     
   }
   
-  /****.Grid and Flex Goes here */
+
+
   
   
   .grid{
@@ -591,7 +593,11 @@ left: 1.5rem;
     gap: 2.5rem;
   }
   
- /*         */
+  .grid-testimonal{
+    gap: 2.5rem;
+  }
+  
+
  
  .section-feature-in{
     padding: 4rem 0;
@@ -606,24 +612,20 @@ left: 1.5rem;
   margin-bottom: 3.5rem;
   }
   
-    .card-img{
-    width: 3rem;
-    height: 3rem;
+.card-img{
+    width: 5rem;
+    height: 5rem;
     background-color: #D3F985;
-  }
-  
-  .second-img{
-    background-color: #A6E8F6;
-  }
-  
-  .thrid-img{
-    background-color: #FCBEDC;
-  }
-  
-  .img-co::before{
-    content: none;
+    padding: 2rem;
+    border-radius: 50%;
 }
 
+.second-img{
+    background-color: #FCBEDC;
+}
+.third-img{
+    background-color: #A6E8F6;
+}
 .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
@@ -719,13 +721,19 @@ left: 1.5rem;
 
 
 @media (min-width: 559px) and (max-width: 990px){
-/*  html{
-    font-size: 56.25%;
-  }*/
+
   
   .layout{
     width: 100%;
     min-width: 0;
+  }
+  .head{
+  width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0 2.5rem;
+    position: relative;
+    
   }
   
   .container{
@@ -735,36 +743,91 @@ left: 1.5rem;
     max-width: none;
   }
     .logo{
-    font-size: 3rem;
+    font-size: 8rem;
+    z-index: 20;
   }
+  
+
   
   .mobile-nav{
     display: block;
   }
   
   .main-nav{
-    background-color: yellow;
+    background-color: #000;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
   }
+  
   
   .nav-list{
     flex-direction: column;
-    color: white;
+    padding-top: 30rem;
+    gap: 6rem;
   }
-  .btn-black:link,
-.btn-black:visited{
-  background: none;
-    color: #fff;
+  
+  
+ .main-nav-link:link,
+.main-nav-link:visited{
+  color: #fff;
+  font-size: 5rem;
+}
+
+ .main-nav-link:hover,
+.main-nav-link:active{
+  color: #aaa;
+}
+
+
+.main-nav-cta:link,
+.main-nav-cta:visited{
+    background: none;
     padding: none;
-    font-size: 4rem;
-    border-radius: 2.3rem;
-    margin-right: none;
+    color: #fff;
+    border-radius: none
+}
+
+.main-nav-cta:hover,
+.main-nav-cta:active{
+    background-color: none;
+    box-shadow: none;
+    color: #aaa;
+}
+
+.mobile-nav{
+  z-index: 20;
+}
+
+.nav-open .main-nav{
+  opacity: 1;
+  z-index: 10;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.nav-open .menu-icon[name="close-outline"]{
+    display: block;
+}
+
+.nav-open .menu-icon[name="menu-outline"]{
+    display: none;
+}
+
+
+.nav-open .mobile-nav .menu-icon{
+  color: #fff;
+  
 }
   
   
@@ -791,15 +854,5 @@ left: 1.5rem;
   
   
   
-  .footer-logo{
-    font-size: 3rem;
-  }
-  .footer-copy{
-    font-size: 1.4rem;
-  }
-  
-  .footer-heading{
-    font-size: 1.8rem;
-  }
   
 }
