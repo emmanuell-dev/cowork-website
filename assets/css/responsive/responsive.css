@@ -59,6 +59,10 @@
     margin-bottom: 3rem;
   }
   
+  .h1s{
+    font-size: 4.5rem;
+  }
+  
   .h2s{
     font-size: 4.5rem;
   }
@@ -86,7 +90,7 @@
   }
   
   .p--bold{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
   
   .a-link:link,
@@ -179,6 +183,11 @@ left: 1.5rem;
     height: 3.5rem;
     padding: 1.5rem;
   }
+  .blog-img{
+    border-radius: 1.5rem;
+  }
+  
+  
 } 
 
 
@@ -326,10 +335,10 @@ left: 1.5rem;
   }
   
 .card-img{
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     background-color: #D3F985;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 50%;
 }
 
@@ -451,6 +460,10 @@ left: 1.5rem;
   
   .blog-heading{
     font-size: 2rem;
+  }
+  
+  .blog-img{
+    border-radius: 1.5rem;
   }
   
   .footer{
@@ -637,10 +650,10 @@ left: 1.5rem;
   }
   
 .card-img{
-    width: 5rem;
-    height: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #D3F985;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 50%;
 }
 
