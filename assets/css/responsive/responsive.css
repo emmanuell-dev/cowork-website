@@ -1133,9 +1133,8 @@ left: 1.5rem;
   width: 100%;
     max-width: none;
     margin: 0;
-    padding: 0 2.5rem;
+    padding: 0 2rem;
     position: relative;
-    
   }
   
   .container{
@@ -1267,7 +1266,13 @@ left: 1.5rem;
 }
 
 .p{
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+
+.section-hero{
+  margin-top: 2rem;
+  padding: 5rem 0;
+  margin-bottom: 3.5rem;
 }
 
 .hero-text-box{
@@ -1282,6 +1287,17 @@ left: 1.5rem;
 
 
 /*.        Section Features In. */
+
+.section-feature-in{
+  padding: 4rem 0;
+  margin-bottom: 3.5rem;
+}
+
+.span{
+  font-size: 2.5rem;
+}
+
+
 .containers{
    overflow: hidden;
    position: relative;
@@ -1327,7 +1343,7 @@ left: 1.5rem;
 }
 
 .h2{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .flex-s{
