@@ -1570,6 +1570,9 @@ left: 1.5rem;
   width: 1.4rem;
   height: 1.4rem;
 }
+.gap{
+  gap: 2rem;
+}
 
 
 /*.      Section Footer.  */
@@ -1579,4 +1582,68 @@ left: 1.5rem;
   margin-bottom: 1.8rem;
 }
 
+  .gaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+  }
+  
+  .contact-col{
+    text-align: center;
+  }
+  
+  .footer-copy{
+    font-size: 1.6rem;
+  }
+  
+  
+  .cta{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta input{
+    padding: 1.6rem 0;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #fff;
+  }
+  .cta input:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+.cta .form-btn{
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.footer-heading{
+  font-size: 2.5rem;
+}
+
+.footer-link{
+  display: flex;
+  flex-direction: columns;
+  align-items: center;
+}
+
+.a-footer:link,
+.a-footer:visited{
+  font-size: 1.6rem;
+}
+
+.footer-copy{
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+  text-align: center;
+}
 }
