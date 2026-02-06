@@ -1404,6 +1404,11 @@ left: 1.5rem;
   
     /*.    Section Stats.    */
   
+  
+  .section-stats{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
   .span-s{
     text-align: center;
     display: block;
@@ -1473,8 +1478,7 @@ left: 1.5rem;
   .cards-4,
   .cards-5{
   align-self: auto;
-  width: 70%;
-  cursor: pointer;
+  width: 95%;
     transition: all 0.4s linear;
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
   }
