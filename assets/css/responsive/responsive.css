@@ -1120,6 +1120,11 @@ left: 1.5rem;
   margin-top: 2rem;
   text-align: center;
 }
+
+.faq-description{
+  font-size: 1.6rem;
+  text-align: center;
+}
   
 }
 
@@ -1505,5 +1510,29 @@ left: 1.5rem;
   /*.         */
 .h2sss{
   text-align: center;
+}
+
+/*.     Section FQA.    */
+.section-faq{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
+
+.faq-description{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.thrid-heading{
+  font-size: 2rem;
+}
+
+.faq-answer{
+  font-size: 1.4rem;
+}
+
+.faq-img{
+  width: 2rem;
+  height: 2rem;
 }
 }
