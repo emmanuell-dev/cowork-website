@@ -1386,4 +1386,40 @@ left: 1.5rem;
   border-radius: 4rem;
   }
   
+  
+    /*.    Section Stats.    */
+  
+  .span-s{
+    text-align: center;
+    display: block;
+  }
+  
+  .h2ss{
+    font-size: 3rem;
+  }
+  
+  .h-ms{
+    text-align: center;
+    line-height: 1.2;
+  }
+  .h-m{
+    font-size: 2.7rem;
+  }
+  
+  .stats-col{
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .stats-1,
+  .stats-3{
+    justify-self: end;
+  }
+  .span-small{
+    font-size: 1.3rem;
+  }
+  
+  .stats-img-box{
+    align-self: center;
+    justify-self: center;
+  }
 }
