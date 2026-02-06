@@ -1270,9 +1270,9 @@ left: 1.5rem;
 }
 
 .section-hero{
-  margin-top: 2rem;
-  padding: 5rem 0;
-  margin-bottom: 3.5rem;
+  margin-top: 1.8rem;
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
 }
 
 .hero-text-box{
@@ -1289,12 +1289,13 @@ left: 1.5rem;
 /*.        Section Features In. */
 
 .section-feature-in{
-  padding: 4rem 0;
-  margin-bottom: 3.5rem;
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
 }
 
 .span{
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 
@@ -1340,8 +1341,8 @@ left: 1.5rem;
   
   
   .section-why{
-  padding: 4rem 0;
-  margin-bottom: 3.5rem;
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
 }
 .span-flex{
   gap: 5rem;
