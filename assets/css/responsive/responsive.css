@@ -1454,4 +1454,52 @@ left: 1.5rem;
     align-self: center;
     justify-self: center;
   }
+  
+  /*.     Section Testimonial */
+  
+  .section-testimonial{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
+  
+    .grid-testimonal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-1,
+  .cards-2,
+  .cards-3,
+  .cards-4,
+  .cards-5{
+  align-self: auto;
+  width: 70%;
+  cursor: pointer;
+    transition: all 0.4s linear;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+ .grid-testimonal .cards:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
+    
+ }
+  
+  .testimonial{
+    font-size: 1.6rem;
+  }
+  .author-name{
+    font-size: 1.8rem;
+  }
+  
+  .author-title{
+    font-size: 1.3rem;
+  }
+  
+  
+  
+  /*.         */
+.h2sss{
+  text-align: center;
+}
 }
