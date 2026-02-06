@@ -1033,7 +1033,6 @@ left: 1.5rem;
   
   /*.         */
 .h2sss{
-  background-color: yellow;
   text-align: center;
 }
 
@@ -1146,4 +1145,106 @@ left: 1.5rem;
     max-width: none;
     background-color: yellow;
   }
+  
+      .logo{
+    font-size: 5rem;
+    z-index: 20;
+  }
+  
+  .footer-logo{
+    font-size: 5rem;
+  }
+  
+ .nav-open .logo{
+  color: #fff;
+}
+  
+  .mobile-nav{
+    display: block;
+  }
+  
+  .main-nav{
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+  }
+  
+  
+  .nav-list{
+    flex-direction: column;
+    padding-top: 30rem;
+    gap: 6rem;
+  }
+  
+  
+ .main-nav-link:link,
+.main-nav-link:visited{
+  color: #fff;
+  font-size: 3rem;
+  transition: all 0.3s linear;
+}
+
+ .main-nav-link:hover,
+.main-nav-link:active{
+  color: #aaa;
+  transform: translateX(30px);
+}
+
+
+.main-nav-cta:link,
+.main-nav-cta:visited{
+    background: none;
+    padding: none;
+    color: #fff;
+    border-radius: none
+}
+
+.main-nav-cta:hover,
+.main-nav-cta:active{
+    background-color: none;
+    box-shadow: none;
+    color: #aaa;
+}
+
+.mobile-nav{
+  z-index: 20;
+}
+
+.nav-open .main-nav{
+  opacity: 1;
+  z-index: 10;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.nav-open .menu-icon[name="close-outline"]{
+    display: block;
+}
+
+.nav-open .menu-icon[name="menu-outline"]{
+    display: none;
+}
+
+
+.nav-open .mobile-nav .menu-icon{
+  color: #fff;
+  
+}
+
+
+
+
+
+
 }
