@@ -1279,6 +1279,21 @@ left: 1.5rem;
   text-align: center;
 }
 
+.high-light{
+  position: relative;
+  z-index: 1;
+}
+
+.high-light::before{
+  content: "";
+  position: absolute;
+  width: 90%;
+  padding-bottom: 4.5rem;
+  border: 0.2rem solid #D3F985;
+  border-radius: 55%;
+  z-index: -1;
+}
+
 .hero-img-box{
   width: 100%;
   height: 70%;
@@ -1417,36 +1432,23 @@ left: 1.5rem;
   .span-small{
     font-size: 1.3rem;
   }
-  .hightlight{
-  position: relative;
-  z-index: 1;
-}
+
 
 .hightlight::before{
-  content: "";
-  position: absolute;
   width: 2.3rem;
   padding-bottom: 2.3rem;
-  background-color: #D3F985;
   top: 1rem;
   left: 2rem;
-  border-radius: 50%;
-  z-index: -1;
 }
 
 .seconds::before{
-background-color: #A6E8F6;
 left: 1.5rem;
 }
 
 .thrids::before{
-background-color: #FCBEDC;
 left: 1.5rem;
 }
 
-.fourth::before{
-    background-color: #FBC899;
-}
   
   .stats-img-box{
     align-self: center;
