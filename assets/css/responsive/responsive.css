@@ -124,8 +124,6 @@ left: 1.5rem;
 left: 1.5rem;
 }
   
-
-  
   .faq-description{
     font-size: 1.6rem;
     line-height: 1.5;
@@ -1667,10 +1665,11 @@ left: 1.5rem;
   .head{
   width: 100%;
     max-width: none;
-    margin: 0;
+    margin: 0 0;
     padding: 0 1rem;
     position: relative;
     height: 4rem;
+    background-color: #000000;
   }
   
   .sticky .head{
@@ -1680,6 +1679,7 @@ left: 1.5rem;
 .menu-icon{
     height: 2.3rem;
     width: 2.3rem;
+    color: #ddd;
 }
   
   .container{
@@ -1701,6 +1701,7 @@ left: 1.5rem;
     font-size: 3rem;
     z-index: 20;
     letter-spacing: 0;
+    color: #ddd;
   }
   
   .footer-logo{
@@ -1797,8 +1798,10 @@ left: 1.5rem;
 /**     Section Hero        */
 
 .section-hero{
-    margin-bottom: 2.5rem;
-    padding: 2.5rem 0;
+  margin-top: 0;
+  background: #000;
+    margin-bottom: 0;
+    padding: 5rem 0;
   }
   
   .mobile-flex{
@@ -1807,12 +1810,16 @@ left: 1.5rem;
     align-items: center;
     justify-content: center;
   }
-
+  
+  .hero-text-box{
+  }
+    
   .h1{
     font-size: 4.5rem;
     text-align: center;
     line-height: 1.1;
     margin-bottom: 1rem;
+    color: #E5E5E5;
   }
   
   .high-light::before{
@@ -1824,53 +1831,331 @@ left: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1.6;
+    color: #999999;
   }
   
   .a-link:link,
   .a-link:visited{
     font-size: 1rem;
-    padding: 0.8rem 1rem;
-    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
   }
+  
+  .btn-black:link,
+  .btn-black:visited{
+    margin-right: 0;
+    background-color: rgba(157, 255, 58, 0.8);
+    color: #000;
+   box-shadow: 0 0 0 rgba(153, 153, 153, 0.10);
+  }
+  .btn-black:hover,
+  .btn-black:active{
+    background-color: #000;
+    color: #eee;
+    box-shadow: inset 0 0 0 1px #999;
+
+  }
+  .btn-white:link,
+  .btn-white:visited{
+    color: #eee;
+    box-shadow: 0 0 0 rgba(153, 153, 153, 0.10);
+    box-shadow: inset 0 0 0 1px #999;
+  }
+  
+  .btn-white:hover,
+  .btn-white:active{
+    background-color: rgba(157, 255, 58, 0.8);
+    color: #000;
+    box-shadow: none;
+  }
+
   
   .btn-center{
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .hero-img-box{
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
   }
   
   .hero-img{
-    width: 100%;
+    display: block;
+    width: 90%;
     height: 100%;
     border-radius: 1rem;
   }
+  
+  
+  /** Section feature in    " */
+  
+  .section-feature-in{
+    background-color: #0F0F10;
+    padding: 3rem 0;
+    margin-bottom: 0;
+  }
+  .spanss{
+    gap: 2rem;
+  }
+  .span{
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  
+  .flex-s{
+    color: #494949;
+  }
+  .feature-imgs{
+    display: flex;
+  width: max-content;
+  animation: scroll 18s linear infinite;
+  }
+  
+  .containers{
+   overflow: hidden;
+   position: relative;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -mask-imagd: linear-gradient(to right, transparent, black 10%, black 90%, transparent)
+}
+
+.secondss-img{
+  display: block;
+}
+
+
+.feature-img{
+  height: 2rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(0.9);
+  opacity: 70%;
+  margin: 0 2rem;
+}
+
+.containers:hover .feature-in-img{
+ animation-play-state: paused;
+}
+
+.feature-img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1);
+  opacity: 80%;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+  
+  100%{
+    transform: translateX(-50%);
+  }
+}
 
 
 
+/*.  Section Why Choose Us. */
+
+.section-why{
+  background-color: #000;
+  padding: 3rem 0;
+    margin-bottom: 0;
+}
+
+.section-why .grid{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.section-why .grid .card{
+  width: 98%;
+  padding: 2rem 2rem;
+  border-radius: 1.4rem;
+  gap: 1rem;
+  background: rgba(13, 14, 20, 0.9);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.card-img{
+  width: 2.4rem;
+  height: 2.4rem;
+  background: none;
+  color: rgba(157, 255, 58, 0.8);
+  padding: 0;
+}
+
+
+.p--bold{
+  font-size: 2.4rem;
+  color: #eee;
+}
 
 
 
+.h2{
+  font-size: 3.5rem;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+/*.      Section Tour.    */
+
+.section-tour{
+  padding: 3rem 0;
+    margin-bottom: 0;
+    background-color: #000002;
+}
+
+.section-tour .flex{
+  gap: 3rem;
+}
+
+.flex .span{
+  color: #9DFF3A;
+  font-size: 2rem;
+}
 
 
+.flex-group .h2s{
+  color: #eee;
+  text-align: center;
+  font-size: 3rem;
+}
 
+.tour-video{
+  width: 95%;
+  height: 100%;
+  border-radius: 1rem;
+}
 
-.flex{
-  gap: 4rem;
+/*.          Section-stats.    */
+
+.section-stats{
+  background-color: #000;
+  padding: 3rem 0;
+    margin-bottom: 0;
+}
+
+.section-stats .grid{
+  
+}
+
+.section-stats .stats-text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-stats .span{
+  font-size: 2rem;
+  color: #9DFF3A;
+}
+
+.section-stats .h-ms{
+  font-size: 3rem;
+  text-align: center;
+  color: #eee;
+}
+
+.stats-1 .h-m,
+.stats-2 .h-m,
+.stats-3 .h-m,
+.stats-4 .h-m{
+  color: #9DFF3A;
+  font-size: 2rem;
   text-align: center;
 }
 
-.grid{
-  gap: 5rem;
+.span-small{
+  font-size: 1rem;
+  color: #999;
 }
+
+.stats-1,
+.stats-3{
+  justify-self: end;
+}
+
+
+.hightlight::before{
+  content: none;
+}
+
+
 
 
 .grid-2-col{
   grid-template-columns: 1fr;
 }
 
-.grid-3-col{
-  grid-template-columns: 1fr;
+.stats-col{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  
 }
 
+.stats-img-box{
+  justify-self: center;
+}
+
+.stats-img-box .hero-img{
+  width: 98%;
+}
+  /*.      Section Testimonial. */
+  .section-testimonial{
+    padding: 3rem 0;
+    margin-bottom: 0;
+    background-color: #0F0F0F;
+  }
   
+  .section-testimonial .span{
+    color: #9DFF3A;
+    font-size: 2rem;
+  }
+  
+  .grid-testimonal{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .grid-testimonal .flex{
+    gap: 2rem;
+  }
+  .cards{
+  padding: 2rem 2rem;
+  border-radius: 1.4rem;
+  background: rgba(13, 14, 20, 0.9);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .cards-img{
+    width: 8rem;
+    height: 8rem;
+    filter: grayscale(100%) brightness(0.9);
+  }
+  .testimonial{
+    font-size: 1.6rem;
+    color: #999;
+  }
+  
+  .author-name{
+    font-size: 2rem;
+    color: #ccc;
+  }
+  .author-title{
+    font-size: 1.3rem;
+    color: #999;
+  }
 }

@@ -9,6 +9,7 @@ html{
     overflow-x: hidden;
 }
 body{
+    font-family: "Roboto", sans-serif;
     background-color: #F1F3F5;
     overflow-x: hidden;
 }
@@ -118,9 +119,9 @@ body{
     top: 0;
     bottom: 0;
     height: 8rem;
-    background-color: rgba(241, 243, 245, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 999;
-    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
     padding-top: 0;
     padding-bottom: 0;
 }

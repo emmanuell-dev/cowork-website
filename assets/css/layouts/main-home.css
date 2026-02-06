@@ -41,6 +41,9 @@ section feature in
   opacity: 60%;
   max-width: 100%;
 }
+.secondss-img{
+  display: none;
+}
 
 /*
 Section Why Choose Us
