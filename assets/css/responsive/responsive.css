@@ -1242,9 +1242,41 @@ left: 1.5rem;
   
 }
 
+.flex{
+  gap: 4rem;
+  text-align: center;
+}
+
+.grid{
+  gap: 6rem;
+}
 
 
+.grid-2-col{
+  grid-template-columns: 1fr;
+}
 
+.grid-3-col{
+  grid-template-columns: 1fr;
+}
 
+.h1{
+  font-size: 6.4rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.p{
+  font-size: 2rem;
+}
+
+.hero-text-box{
+  text-align: center;
+}
+
+.hero-img-box{
+  width: 90%;
+  height: 70%;
+}
 
 }
