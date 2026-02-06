@@ -15,40 +15,7 @@ btnNavEl.addEventListener('click', function(){
 /////
 
 
-//// For Smooth Scrolling 
 
-//const allLinks = document.querySelectorAll('a:link');
-//allLinks.forEach(function(link){
-//link.addEventListener('click', function(e){
- // e.preventDefault();
- // const href = link.getAttribute('href');
-//  console.log(href);
-  
-  
-  /// Smooth Back to Top
-//  if (href === "#")
- // window.scrollTo({
- //   top: 0,
-//    behavior: 'smooth'
-//  });
-  
-  
-//  if (href !== '#' && href.startsWith('#')){
-   // const sectionEl = document.querySelector(href);
-   // sectionEl.scrollIntoView({behavior:'smooth'})
- // };
-  
-  /// Close Nav 
-  
-//  if (link.classList.contains('main-nav-link'))
-//  headEl.classList.toggle('nav-open');
-
-//});
-  
-  
-//})
-
-///
 
 
 const allLinks = document.querySelectorAll('a:link');
@@ -72,9 +39,6 @@ allLinks.forEach(function(link) {
         sectionEl.scrollIntoView({ behavior: 'smooth' });
       }
     }
-
-    // If it's a normal page link (like pages/about.html), 
-    // e.preventDefault() is skipped, and the page opens!
 
     // Close Mobile Nav if link is clicked
     if (link.classList.contains('main-nav-link')) {
