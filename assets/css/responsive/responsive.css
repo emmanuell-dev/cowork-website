@@ -1,15 +1,4 @@
 @media (min-width: 1439px) and (max-width: 1700px) {
-  /*.layout {
-    min-width: 100%;
-    max-width: 1700px;   
-    margin: 0 auto; 
-  }
-  .head{
-    max-width: 1439px;
-    margin: 0 auto;
-    padding: 0 1.6rem;
-    
-  }*/
     .layout{
     width: 100%;
     min-width: 0;
@@ -44,12 +33,6 @@
   .footer-heading{
     font-size: 1.8rem;
   }
-
- /* .container {
-    max-width: 1439px;  
-    margin: 0 auto; 
-    padding: 0 1.6rem;
-  }*/
 
   
 
@@ -364,11 +347,6 @@ left: 1.5rem;
   margin-bottom: 3.2rem;
   }
   
-  .tour-video{
-    width: 90%;
-  height: 60rem;
-  border-radius: 2rem;
-  }
   
   .section-stats{
   padding: 4rem 0;
@@ -603,15 +581,6 @@ left: 1.5rem;
   content: none;
 }
 
-  
-  section{
-    
-  }
-  
-
-
-  
-  
   .grid{
     gap: 2.5rem;
   }
@@ -666,11 +635,6 @@ left: 1.5rem;
   margin-bottom: 3.5rem;
   }
   
-  .tour-video{
-    width: 90%;
-  height: 50rem;
-  border-radius: 2rem;
-  }
 
 .section-stats{
   padding: 4rem 0;
@@ -963,11 +927,7 @@ left: 1.5rem;
   /*.      Section Tour.    */
   
 
-  .tour-video{
-  width: 100%;
-  height: 50rem;
-  border-radius: 4rem;
-  }
+
   
   
   /*.    Section Stats.    */
@@ -1397,12 +1357,6 @@ left: 1.5rem;
     font-size: 3rem;
   }
 
-  .tour-video{
-  width: 100%;
-  height: 30rem;
-  border-radius: 4rem;
-  }
-  
   
     /*.    Section Stats.    */
   
@@ -2031,11 +1985,6 @@ left: 1.5rem;
   font-size: 3rem;
 }
 
-.tour-video{
-  width: 95%;
-  height: 100%;
-  border-radius: 1rem;
-}
 
 /*.          Section-stats.    */
 
@@ -2045,9 +1994,6 @@ left: 1.5rem;
     margin-bottom: 0;
 }
 
-.section-stats .grid{
-  
-}
 
 .section-stats .stats-text-box{
   display: flex;
