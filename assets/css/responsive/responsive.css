@@ -1535,4 +1535,48 @@ left: 1.5rem;
   width: 2rem;
   height: 2rem;
 }
+
+/*.   Section CTA.    */
+
+.section-cta{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
+
+.h1s{
+  font-size: 3.5rem;
+}
+
+
+/*.      Section Blog.  */
+.section-blog{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
+
+.tag{
+  font-size: 1.4rem;
+}
+
+.blog-heading{
+  font-size: 1.8rem;
+}
+
+.blog-btn{
+  font-size: 1.4rem;
+}
+
+.blog-icon{
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+
+/*.      Section Footer.  */
+
+.footer{
+  padding: 1.8rem 0;
+  margin-bottom: 1.8rem;
+}
+
 }
