@@ -8,89 +8,89 @@
     max-width: none;
     margin: 0;
     padding: 0 2.5rem;
-    
+
   }
-  
+
   .container{
     width: 100%;
     padding: 0 2.5rem;
     margin: 0;
     max-width: none;
   }
-  
+
   .logo{
     font-size: 3.5rem;
   }
-  
+
   .footer-logo{
     font-size: 5rem;
   }
-  
+
    .footer-copy{
     font-size: 1.6rem;
   }
-  
+
   .footer-heading{
     font-size: 1.8rem;
   }
 
-  
 
-  
+
+
   .h1{
     font-size: 5.4rem;
     margin-bottom: 3rem;
   }
-  
+
   .h1s{
     font-size: 4.5rem;
   }
-  
+
   .h2s{
     font-size: 4.5rem;
   }
-  
+
   .span{
     font-size: 2.5rem;
     letter-spacing: 0.1rem;
-    
+
   }
-  
+
   .h2ss{
     font-size: 4.5rem;
     line-height: 1.1;
   }
-  
+
   .h2sss{
     margin-bottom: 2.5rem;
   }
   .p{
     font-size: 1.6rem;
   }
-  
+
   .p-h{
     margin-bottom: 3rem;
   }
-  
+
   .p--bold{
     font-size: 2.8rem;
   }
-  
+
   .a-link:link,
   .a-link:visited{
     font-size: 1.3rem;
   }
-  
+
   .main-nav-link:link,
 .main-nav-link:visited{
     font-size: 1.3rem;
-    
+
 }
-  
+
   .span-small{
     font-size: 2rem;
   }
-  
+
   .hightlight::before{
   width: 3rem;
   padding-bottom: 3rem;
@@ -106,19 +106,19 @@ left: 1.5rem;
 .thrids::before{
 left: 1.5rem;
 }
-  
+
   .faq-description{
     font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 400;
   }
-  
+
   .thrid-heading{
     font-size: 1.9rem;
   font-weight: 600;
   line-height: 1.5;
   }
-  
+
   .faq-answer{
     padding: 1rem 0;
   font-size: 1.6rem;
@@ -127,19 +127,19 @@ left: 1.5rem;
   }
 
 
-  
-  
+
+
   .gap{
     margin-bottom: 0.5rem;
   }
-  
+
   .tag{
     font-size: 1.6rem;
   }
   .tag-title{
     font-weight: 700;
   }
-  
+
   .blog-heading{
     font-size: 2.5rem;
   }
@@ -147,18 +147,18 @@ left: 1.5rem;
   .testimonial{
     font-size: 1.6rem;
   }
-  
+
   .author-name{
     font-size: 2.4rem;
   }
-  
+
   .author-title{
     font-size: 1.3rem;
   }
   .footer{
     padding-bottom: 0;
   }
-  
+
   .card-img{
     width: 3.5rem;
     height: 3.5rem;
@@ -167,19 +167,17 @@ left: 1.5rem;
   .blog-img{
     border-radius: 1.5rem;
   }
-  
-  
+
+
 } 
 
 
 
 /****** For Screens size of 1024px to 1430px */
 
-
-
 @media (min-width: 1270px) and (max-width: 1430px){
 
-  
+
   .layout{
     width: 100%;
     min-width: 0;
@@ -189,79 +187,79 @@ left: 1.5rem;
     max-width: none;
     margin: 0;
     padding: 0 2.5rem;
-    
+
   }
-  
+
   .container{
     width: 100%;
     padding: 0 2.5rem;
     margin: 0;
     max-width: none;
   }
-  
+
   .logo{
     font-size: 3.5rem;
   }
-  
+
   .footer-logo{
     font-size: 3.5rem;
   }
   .footer-copy{
     font-size: 1.4rem;
   }
-  
+
   .footer-heading{
     font-size: 1.6rem;
   }
-  
+
   .a-link:link,
   .a-link:visited{
     font-size: 1.3rem;
   }
-  
+
   .main-nav-link:link,
 .main-nav-link:visited{
     font-size: 1.3rem;
-    
+
 }
-  
-  
+
+
   .h1{
     font-size: 4.5rem;
     margin-bottom: 2rem;
   }
-  
+
   .h1s{
     font-size: 4rem;
   }
-  
+
     .h2s{
     font-size: 3.5rem;
   }
-  
+
   .h2{
    font-size: 3.5rem;
   }
-  
+
   .h-m{
     font-weight: 700;
   }
-  
+
   .span{
     font-size: 2rem;
     letter-spacing: 0.1rem;
-    
+
   }
-  
+
   .h2ss{
     font-size: 3rem;
     line-height: 1.1;
   }
-  
+
   .h2sss{
     margin-bottom: 2.5rem;
   }
-  
+
   .p{
     font-size: 1.6rem;
   }
@@ -271,16 +269,16 @@ left: 1.5rem;
   .p--bold{
     font-size: 2.8rem;
   }
-  
+
   .span-small{
     font-size: 1.4rem;
   }
-  
+
   .hero-img{
     width: 100%;
     border-radius: 2rem;
 }
-  
+
   .section-hero{
   padding: 6rem 0;
   margin-bottom: 7rem;
@@ -296,7 +294,7 @@ left: 1.5rem;
   z-index: -1;
 }
 
-  
+
   .section-feature-in{
     padding: 3rem 0;
   margin-bottom: 3.2rem;
@@ -304,17 +302,17 @@ left: 1.5rem;
   .span-flex{
     gap: 3rem;
   }
-  
-  
+
+
   .feature-img{
   height: 3.2rem;
 }
-  
+
   .section-why{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
   }
-  
+
 .card-img{
     width: 3rem;
     height: 3rem;
@@ -333,21 +331,21 @@ left: 1.5rem;
   .flex{
     gap: 4rem;
   }
-  
+
   .flex-group{
     gap: 1rem
   }
-  
-  
-  
-  
+
+
+
+
 
   .section-tour{
     padding: 4rem 0;
   margin-bottom: 3.2rem;
   }
-  
-  
+
+
   .section-stats{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
@@ -369,20 +367,20 @@ left: 1.5rem;
 .thrids::before{
 left: 1.5rem;
 }
-  
+
   .section-testimonial{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
 }
-  
+
    .testimonial{
     font-size: 1.4rem;
   }
-  
+
   .author-name{
     font-size: 2rem;
   }
-  
+
   .author-title{
     font-size: 1.2rem;
   }
@@ -390,19 +388,19 @@ left: 1.5rem;
   padding: 4rem 0;
   margin-bottom: 3.2rem;
   }
-  
+
     .faq-description{
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 400;
   }
-  
+
   .thrid-heading{
     font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5;
   }
-  
+
   .faq-answer{
     padding: 1rem 0;
   font-size: 1.4rem;
@@ -416,39 +414,38 @@ left: 1.5rem;
     padding: 4rem 0;
   margin-bottom: 3.2rem;
   }
-  
+
 .section-blog{
   padding: 4rem 0;
   margin-bottom: 3.2rem;
 }
-  
+
   .gap{
     gap: 2.5rem;
     margin-bottom: 0.3rem;
   }
-  
+
     .tag{
     font-size: 1.3rem;
   }
   .tag-title{
     font-weight: 800;
   }
-  
+
   .blog-heading{
     font-size: 2rem;
   }
-  
+
   .blog-img{
     border-radius: 1.5rem;
   }
-  
+
   .footer{
     padding: 0;
     color: #fff;
 }
-  
-}
 
+}
 
 @media (min-width: 1023px) and (max-width: 1260px){
 
@@ -461,9 +458,9 @@ left: 1.5rem;
     max-width: none;
     margin: 0;
     padding: 0 2.5rem;
-    
+
   }
-  
+
   .container{
     width: 100%;
     padding: 0 2.5rem;
@@ -473,66 +470,66 @@ left: 1.5rem;
    .logo{
     font-size: 3rem;
   }
-  
+
   .footer-logo{
     font-size: 3rem;
   }
   .footer-copy{
     font-size: 1.4rem;
   }
-  
+
   .footer-heading{
     font-size: 1.8rem;
   }
-  
+
    .a-link:link,
   .a-link:visited{
     font-size: 1.3rem;
   }
-  
+
   .main-nav-link:link,
 .main-nav-link:visited{
     font-size: 1.3rem;
-    
+
 }
-  
-  
+
+
   .h1{
     font-size: 4rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .h1s{
     font-size: 4rem;
   }
-  
+
     .h2s{
     font-size: 3rem;
   }
-  
+
   .h2{
    font-size: 3rem;
   }
-  
+
   .h-m{
     font-weight: 700;
   }
-  
+
   .span{
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    
+
   }
-  
+
   .h2ss{
     font-size: 2.3rem;
     line-height: 1.1;
   }
-  
+
   .h2sss{
     margin-bottom: 1.5rem;
   }
-  
+
   .p{
     font-size: 1.4rem;
   }
@@ -540,16 +537,16 @@ left: 1.5rem;
     font-size: 2.5rem;
     font-weight: 700;
   }
-  
+
   .p-h{
     margin-bottom: 1.5rem;
   }
-  
+
   .span-small{
     font-size: 1.4rem;
   }
-  
-  
+
+
 .nav-list{
   gap: 1.5rem;
 }
@@ -584,25 +581,25 @@ left: 1.5rem;
   .grid{
     gap: 2.5rem;
   }
-  
+
   .grids{
     gap: 2.5rem;
   }
-  
+
   .flex{
     gap: 2.5rem;
   }
-  
+
   .span-flex{
     gap: 2.5rem;
   }
-  
+
   .grid-testimonal{
     gap: 2.5rem;
   }
-  
 
- 
+
+
  .section-feature-in{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
@@ -610,12 +607,12 @@ left: 1.5rem;
    .feature-img{
   height: 2.8rem;
 }
-  
+
    .section-why{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
   }
-  
+
 .card-img{
     width: 2.5rem;
     height: 2.5rem;
@@ -634,7 +631,7 @@ left: 1.5rem;
     padding: 4rem 0;
   margin-bottom: 3.5rem;
   }
-  
+
 
 .section-stats{
   padding: 4rem 0;
@@ -657,35 +654,35 @@ left: 1.5rem;
 .author-name{
     font-size: 2rem;
   }
-  
+
   .author-title{
     font-size: 1.2rem;
   }
-  
+
   .section-faq{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
   }
-  
+
    .faq-description{
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 400;
   }
-  
+
   .thrid-heading{
     font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5;
   }
-  
+
   .faq-answer{
     padding: 1rem 0;
   font-size: 1.4rem;
  line-height: 1.5;
   font-weight: 400;
   }
-  
+
   .section-cta{
     padding: 4rem 0;
   margin-bottom: 3.5rem;
@@ -695,33 +692,32 @@ left: 1.5rem;
   padding: 4rem 0;
   margin-bottom: 3.5rem;
 }
-  
+
   .gap{
     gap: 2.5rem;
     margin-bottom: 0.3rem;
   }
-  
+
     .tag{
     font-size: 1.3rem;
   }
   .tag-title{
     font-weight: 800;
   }
-  
+
   .blog-heading{
     font-size: 1.8rem;
   }
-  
+
 .footer{
     padding-top: 4rem;
     padding-bottom: 0;
   }
 }
 
-
 @media (min-width: 610px) and (max-width: 993px){
 
-  
+
   .layout{
     width: 100%;
     min-width: 0;
@@ -732,9 +728,9 @@ left: 1.5rem;
     margin: 0;
     padding: 0 2.5rem;
     position: relative;
-    
+
   }
-  
+
   .container{
     width: 100%;
     padding: 0 5rem;
@@ -745,19 +741,19 @@ left: 1.5rem;
     font-size: 5rem;
     z-index: 20;
   }
-  
+
   .footer-logo{
     font-size: 5rem;
   }
-  
+
  .nav-open .logo{
   color: #fff;
 }
-  
+
   .mobile-nav{
     display: block;
   }
-  
+
   .main-nav{
     background-color: #000;
     position: absolute;
@@ -773,15 +769,15 @@ left: 1.5rem;
     pointer-events: none;
     visibility: none;
   }
-  
-  
+
+
   .nav-list{
     flex-direction: column;
     padding-top: 30rem;
     gap: 6rem;
   }
-  
-  
+
+
  .main-nav-link:link,
 .main-nav-link:visited{
   color: #fff;
@@ -834,7 +830,7 @@ left: 1.5rem;
 
 .nav-open .mobile-nav .menu-icon{
   color: #fff;
-  
+
 }
 
 .flex{
@@ -905,7 +901,7 @@ left: 1.5rem;
   0%{
     transform: translateX(0%);
   }
-  
+
   100%{
     transform: translateX(-50%);
   }
@@ -915,51 +911,51 @@ left: 1.5rem;
 
 
 /*.     Section Why Choose Us. */
-  
+
 .span-flex{
   gap: 8rem;
 }
-  
-  
+
+
   /*.         */
-  
-  
+
+
   /*.      Section Tour.    */
-  
 
 
-  
-  
+
+
+
   /*.    Section Stats.    */
-  
+
   .span-s{
     text-align: center;
     display: block;
   }
-  
+
   .h-ms{
     text-align: center;
     line-height: 1.2;
   }
-  
+
   .stats-col{
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .stats-1,
   .stats-3{
     justify-self: end;
   }
-  
+
 .h-m{
     font-size: 8rem;
     font-weight: 800;
   }
-  
+
   .span-small{
     font-size: 2.5rem;
   }
-  
+
   .grid-testimonal{
     display: flex;
     flex-direction: column;
@@ -976,27 +972,27 @@ left: 1.5rem;
     transition: all 0.4s linear;
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
   }
-  
+
  .grid-testimonal .cards:hover{
     transform: scale(1.1, 1.1);
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
-    
+
  }
-  
+
   .testimonial{
     font-size: 2.4rem;
   }
-  
-  
-  
+
+
+
   /*.         */
 .h2sss{
   text-align: center;
 }
 
 /*.    Section Blog.    */
-  
-  
+
+
 .gap{
   display: flex;
   flex-direction: column;
@@ -1006,35 +1002,35 @@ left: 1.5rem;
   .gap article{
     width: 70%;
   }
-  
+
   .blog-img{
     border-radius: 2rem;
   }
-  
-  
+
+
   /*.        Footer Section.  */
-  
+
   .gaps{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
   }
-  
+
   .contact-col{
     text-align: center;
   }
-  
+
   .footer-copy{
     font-size: 2.4rem;
   }
-  
-  
+
+
   .cta{
     flex-direction: column;
     align-items: center;
   }
-  
+
   .cta input{
     padding: 2rem 0;
     font-size: 2.4rem;
@@ -1083,11 +1079,11 @@ left: 1.5rem;
   font-size: 1.6rem;
   text-align: center;
 }
-  
+
 }
 
 @media (min-width: 500px) and (max-width: 607px){
-  
+
     .layout{
     width: 100%;
     min-width: 0;
@@ -1099,31 +1095,31 @@ left: 1.5rem;
     padding: 0 2rem;
     position: relative;
   }
-  
+
   .container{
     width: 100%;
     padding: 0 5rem;
     margin: 0;
     max-width: none;
   }
-  
+
       .logo{
     font-size: 5rem;
     z-index: 20;
   }
-  
+
   .footer-logo{
     font-size: 5rem;
   }
-  
+
  .nav-open .logo{
   color: #fff;
 }
-  
+
   .mobile-nav{
     display: block;
   }
-  
+
   .main-nav{
     background-color: #000;
     position: absolute;
@@ -1139,15 +1135,15 @@ left: 1.5rem;
     pointer-events: none;
     visibility: none;
   }
-  
-  
+
+
   .nav-list{
     flex-direction: column;
     padding-top: 10rem;
     gap: 3rem;
   }
-  
-  
+
+
  .main-nav-link:link,
 .main-nav-link:visited{
   color: #fff;
@@ -1200,7 +1196,7 @@ left: 1.5rem;
 
 .nav-open .mobile-nav .menu-icon{
   color: #fff;
-  
+
 }
 
 .flex{
@@ -1308,15 +1304,15 @@ left: 1.5rem;
   0%{
     transform: translateX(0%);
   }
-  
+
   100%{
     transform: translateX(-50%);
   }
 }
 
 /*.     Section Why Choose Us. */
-  
-  
+
+
   .section-why{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1342,13 +1338,13 @@ left: 1.5rem;
   height: 3.2rem;
   width: 3.2rem;
 }
-  
-  
+
+
   /*.         */
-  
-  
+
+
   /*.      Section Tour.    */
-  
+
   .section-tour{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1357,10 +1353,10 @@ left: 1.5rem;
     font-size: 3rem;
   }
 
-  
+
     /*.    Section Stats.    */
-  
-  
+
+
   .section-stats{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1369,11 +1365,11 @@ left: 1.5rem;
     text-align: center;
     display: block;
   }
-  
+
   .h2ss{
     font-size: 3rem;
   }
-  
+
   .h-ms{
     text-align: center;
     line-height: 1.2;
@@ -1381,11 +1377,11 @@ left: 1.5rem;
   .h-m{
     font-size: 2.7rem;
   }
-  
+
   .stats-col{
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .stats-1,
   .stats-3{
     justify-self: end;
@@ -1410,19 +1406,19 @@ left: 1.5rem;
 left: 1.5rem;
 }
 
-  
+
   .stats-img-box{
     align-self: center;
     justify-self: center;
   }
-  
+
   /*.     Section Testimonial */
-  
+
   .section-testimonial{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
 }
-  
+
     .grid-testimonal{
     display: flex;
     flex-direction: column;
@@ -1438,26 +1434,26 @@ left: 1.5rem;
     transition: all 0.4s linear;
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.1);
   }
-  
+
  .grid-testimonal .cards:hover{
     transform: scale(1.1, 1.1);
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
-    
+
  }
-  
+
   .testimonial{
     font-size: 1.6rem;
   }
   .author-name{
     font-size: 1.8rem;
   }
-  
+
   .author-title{
     font-size: 1.3rem;
   }
-  
-  
-  
+
+
+
   /*.         */
 .h2sss{
   text-align: center;
@@ -1539,21 +1535,21 @@ left: 1.5rem;
     align-items: center;
     gap: 1.8rem;
   }
-  
+
   .contact-col{
     text-align: center;
   }
-  
+
   .footer-copy{
     font-size: 1.6rem;
   }
-  
-  
+
+
   .cta{
     flex-direction: column;
     align-items: center;
   }
-  
+
   .cta input{
     padding: 1.6rem 0;
     font-size: 1.6rem;
@@ -1599,19 +1595,8 @@ left: 1.5rem;
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 300px) and (max-width: 490px){
-  
+
     .layout{
     width: 100%;
     min-width: 0;
@@ -1625,7 +1610,7 @@ left: 1.5rem;
     height: 4rem;
     background-color: #000000;
   }
-  
+
   .sticky .head{
     height: 3rem;
 }
@@ -1635,29 +1620,29 @@ left: 1.5rem;
     width: 2.3rem;
     color: #ddd;
 }
-  
+
   .container{
     width: 100%;
     padding: 0 1rem;
     margin: 0;
     max-width: none;
   }
-  
-  
+
+
   footer{
     background-color: yellow;
   }
-  
-  
-  
-  
+
+
+
+
         .logo{
     font-size: 3rem;
     z-index: 20;
     letter-spacing: 0;
     color: #ddd;
   }
-  
+
   .footer-logo{
     font-size: 5rem;
   }
@@ -1665,11 +1650,11 @@ left: 1.5rem;
  .nav-open .logo{
   color: #fff;
 }
-  
+
   .mobile-nav{
     display: block;
   }
-  
+
   .main-nav{
     background-color: #000;
     position: absolute;
@@ -1685,15 +1670,15 @@ left: 1.5rem;
     pointer-events: none;
     visibility: none;
   }
-  
-  
+
+
   .nav-list{
     flex-direction: column;
     padding-top: 10rem;
     gap: 3rem;
   }
-  
-  
+
+
  .main-nav-link:link,
 .main-nav-link:visited{
   color: #fff;
@@ -1746,7 +1731,7 @@ left: 1.5rem;
 
 .nav-open .mobile-nav .menu-icon{
   color: #fff;
-  
+
 } 
 
 /**     Section Hero        */
@@ -1757,17 +1742,17 @@ left: 1.5rem;
     margin-bottom: 0;
     padding: 5rem 0;
   }
-  
+
   .mobile-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   .hero-text-box{
   }
-    
+
   .h1{
     font-size: 4.5rem;
     text-align: center;
@@ -1775,11 +1760,11 @@ left: 1.5rem;
     margin-bottom: 1rem;
     color: #E5E5E5;
   }
-  
+
   .high-light::before{
     content: none;
   }
-  
+
   .p{
     font-size: 1.6rem;
     text-align: center;
@@ -1787,14 +1772,14 @@ left: 1.5rem;
     line-height: 1.6;
     color: #999999;
   }
-  
+
   .a-link:link,
   .a-link:visited{
     font-size: 1rem;
     padding: 1rem 1.5rem;
     border-radius: 1.5rem;
   }
-  
+
   .btn-black:link,
   .btn-black:visited{
     margin-right: 0;
@@ -1815,7 +1800,7 @@ left: 1.5rem;
     box-shadow: 0 0 0 rgba(153, 153, 153, 0.10);
     box-shadow: inset 0 0 0 1px #999;
   }
-  
+
   .btn-white:hover,
   .btn-white:active{
     background-color: rgba(157, 255, 58, 0.8);
@@ -1823,7 +1808,7 @@ left: 1.5rem;
     box-shadow: none;
   }
 
-  
+
   .btn-center{
     display: flex;
     justify-content: center;
@@ -1831,23 +1816,23 @@ left: 1.5rem;
     align-items: center;
     gap: 1.5rem;
   }
-  
+
   .hero-img-box{
     align-items: center;
     justify-items: center;
     max-width: 100%;
   }
-  
+
   .hero-img{
     display: block;
     width: 98%;
     height: 100%;
     border-radius: 1rem;
   }
-  
-  
+
+
   /** Section feature in    " */
-  
+
   .section-feature-in{
     background-color: #0F0F10;
     padding: 3rem 0;
@@ -1861,7 +1846,7 @@ left: 1.5rem;
     letter-spacing: 0;
     text-transform: none;
   }
-  
+
   .flex-s{
     color: #494949;
   }
@@ -1870,7 +1855,7 @@ left: 1.5rem;
   width: max-content;
   animation: scroll 18s linear infinite;
   }
-  
+
   .containers{
    overflow: hidden;
    position: relative;
@@ -1905,7 +1890,7 @@ left: 1.5rem;
   0%{
     transform: translateX(0%);
   }
-  
+
   100%{
     transform: translateX(-50%);
   }
@@ -2047,7 +2032,7 @@ left: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  
+
 }
 
 .stats-img-box{
@@ -2063,18 +2048,18 @@ left: 1.5rem;
     margin-bottom: 0;
     background-color: #0F0F0F;
   }
-  
+
   .section-testimonial .span{
     color: #9DFF3A;
     font-size: 2rem;
   }
-  
+
   .grid-testimonal{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
   }
-  
+
   .grid-testimonal .flex{
     gap: 2rem;
   }
@@ -2085,7 +2070,7 @@ left: 1.5rem;
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   }
-  
+
   .cards-img{
     width: 8rem;
     height: 8rem;
@@ -2095,7 +2080,7 @@ left: 1.5rem;
     font-size: 1.6rem;
     color: #999;
   }
-  
+
   .author-name{
     font-size: 2rem;
     color: #ccc;
@@ -2104,4 +2089,5 @@ left: 1.5rem;
     font-size: 1.3rem;
     color: #999;
   }
+
 }
