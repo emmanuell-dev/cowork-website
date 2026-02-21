@@ -329,7 +329,7 @@ input{
    FOR SCREEN WIDTH OF 31rem to 77rem
    ==================== */
 
-/*@media (min-width: 310px) and (max-width: 770px){
+@media (min-width: 310px) and (max-width: 770px){
   
   .layout{
     width: 100%;
@@ -341,6 +341,15 @@ input{
     width: 100%;
     padding: 0 1.5rem;
   }
+  
+  h1{
+  font-size: 4rem;
+  }
+
+p{
+  font-size: 1.6rem;
+}
+
   p{
     font-size: 1.6rem;
   }
@@ -355,7 +364,7 @@ input{
   
     /* ====================
    HEADER SECTION
-   ==================== 
+   ==================== */
 .head{
   width: 100%;
   max-width: none;
@@ -378,7 +387,7 @@ input{
 
     /* ====================
    MOBILE NAVIGATION MENU 
-   ==================== 
+   ==================== */
 
 .main-nav{
   flex-direction: column;
@@ -432,10 +441,41 @@ input{
   display: block;
 }
 
+/* ====================
+   SECTION LAYOUT
+   ==================== */
+.section-hero{
+  padding: 6rem 0;
+}
+/* ====================
+   GRID LAYOUT
+   ==================== */
+   .grid{
+     gap: 3rem;
+   }
+.grid-2-col{
+  grid-template-columns: 1fr;
+}
+
+.grid-3-col{
+  grid-template-columns: 1fr;
+}
+
+/* ====================
+   FLEX LAYOUT
+   ==================== */
+   
+   .flex-c{
+     gap: 1.5rem;
+   }
+   
+   .flex-r{
+     text-align: center;
+   }
 
 /* ====================
    FOOTER SECTION
-   ==================== 
+   ==================== */
 .footer{
   padding-top: 4rem;
     padding-bottom: 4rem;
@@ -483,4 +523,4 @@ input{
   font-size: 1.6rem;
 }
 
-}*/
+}
