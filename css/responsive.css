@@ -397,7 +397,7 @@ input{
    FOR SCREEN WIDTH OF 31rem to 77rem
    ==================== */
 
-/*@media (min-width: 310px) and (max-width: 770px){
+@media (min-width: 310px) and (max-width: 770px){
   
   .layout{
     width: 100%;
@@ -432,7 +432,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== 
+   ==================== */
 .head{
   width: 100%;
   max-width: none;
@@ -455,7 +455,7 @@ p{
 
     /* ====================
    MOBILE NAVIGATION MENU 
-   ==================== 
+   ==================== */
 
 .main-nav{
   flex-direction: column;
@@ -511,13 +511,53 @@ p{
 
 /* ====================
    SECTION LAYOUT
-   ==================== 
+   ==================== */
 .section-hero{
   padding: 6rem 0;
 }
+
+      /* ====================
+  SECTION ( )
+   ==================== */
+.subhead{
+  font-size: 1.8rem;
+}
+
+.section-feature-in{
+  padding: 2rem 0;
+}
+
+/* ====================
+SPECIAL SECTION ( FEATURE IN)
+   ==================== */
+   
+   .feature-in{
+     gap: 1.5rem;
+     margin-top: 1rem;
+       -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -mask-imagd: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  width: max-content;
+  animation: scroll 18s linear infinite;
+   }
+   
+   .feature-img{
+     height: 30px;
+     transition: transform 0.3s ease, filter 0.3s ease;
+   }
+   
+   @keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
 /* ====================
    GRID LAYOUT
-   ==================== 
+   ==================== */
    .grid{
      gap: 3rem;
    }
@@ -531,10 +571,10 @@ p{
 
 /* ====================
    FLEX LAYOUT
-   ==================== 
+   ==================== */
    
    .flex-c{
-     gap: 1.5rem;
+     gap: 1rem;
    }
    
    .flex-r{
@@ -543,7 +583,7 @@ p{
 
 /* ====================
    FOOTER SECTION
-   ==================== 
+   ==================== */
 .footer{
   padding-top: 4rem;
     padding-bottom: 4rem;
@@ -591,4 +631,4 @@ input{
   font-size: 1.6rem;
 }
 
-}*/
+}
