@@ -196,12 +196,15 @@ p{
    .section-hero{
      padding: 10rem 0;
    }
+   .section-feature-in{
+  padding: 4rem 0;
+}
    
       /* ====================
   SECTION ( )
    ==================== */
 .subhead{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 /* ====================
@@ -210,11 +213,11 @@ SPECIAL SECTION ( FEATURE IN)
    
    .feature-in{
      gap: 3rem;
-     margin-top: 3rem;
+     margin-top: 2rem;
    }
    
    .feature-img{
-     height: 50px;
+     height: 30px;
    }
 
 
@@ -330,7 +333,11 @@ p{
   SECTION ( )
    ==================== */
 .subhead{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+}
+
+.section-feature-in{
+  padding: 4rem 0;
 }
 
 /* ====================
@@ -343,7 +350,7 @@ SPECIAL SECTION ( FEATURE IN)
    }
    
    .feature-img{
-     height: 50px;
+     height: 30px;
    }
 
 
