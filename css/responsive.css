@@ -130,4 +130,40 @@ p{
   gap: 2.5rem;
 }
 
+/* ====================
+   FOOTER SECTION
+   ==================== */
+.footer{
+  padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.footer-grid{
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-heading{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+.footer-form{
+  margin-bottom: 1.5rem;
+}
+
+input{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+  margin-bottom: 1rem;
+}
+
+.footer-copy{
+  font-size: 2rem;
+}
+
 }
