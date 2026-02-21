@@ -1,6 +1,6 @@
 .btn-link{
   display: inline-block;
-  padding: 2rem 0;
+  padding: 2rem;
   background-color: var(--font-tertiary-color);
   color: var(--font-fourth-color);
   width: 18rem;

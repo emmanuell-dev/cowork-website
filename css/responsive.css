@@ -15,11 +15,11 @@
   }
   
   a{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   
   .btn-link{
-    font-size: 2rem;
+    font-size: 1.6rem;
     width: 15rem;
   }
 
@@ -30,7 +30,7 @@
   width: 100%;
   max-width: none;
   padding: 4rem 2.4rem;
-  height: 8rem;
+  height: 10rem;
 }
 
 .logo{
@@ -38,7 +38,7 @@
 }
 
 .main-nav{
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 
