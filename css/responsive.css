@@ -1,0 +1,25 @@
+@media (min-width: 1430px) and (max-width: 1670px){
+  .layout{
+    min-width: 143rem;
+    max-width: 167rem;
+  }
+  .container{
+    width: 100%;
+    max-width: none;
+    padding: 0 2.4rem;
+    margin: 0 auto;
+  }
+  
+  
+ h1{
+  font-size: 4.8rem;
+}
+
+h2{
+  font-size: 3.2rem;
+}
+  p{
+    font-size: 1.8rem;
+  }
+  
+}
