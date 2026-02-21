@@ -11,21 +11,17 @@
   }
   
   
- h1{
-  font-size: 4.8rem;
-}
-
-h2{
-  font-size: 3.2rem;
-}
   p{
+    font-size: 2rem;
+  }
+  
+  a{
     font-size: 1.8rem;
   }
   
   .btn-link{
     font-size: 2rem;
     width: 15rem;
-    background-color: pink;
   }
 
   /* ====================
@@ -33,7 +29,7 @@ h2{
    ==================== */
 .head{
     padding: 2rem 2.4rem;
-    max-width: 143rem;
+    max-width: none;
  height: 8rem;
 }
 
@@ -44,4 +40,46 @@ h2{
 .main-nav{
   gap: 3rem;
 }
+
+
+
+
+
+
+/* ====================
+   FOOTER SECTION
+   ==================== */
+.footer{
+  padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.footer-grid{
+  grid-gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-heading{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+.footer-form{
+  margin-bottom: 1.5rem;
+}
+
+input{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+  margin-bottom: 1rem;
+}
+
+.footer-copy{
+  font-size: 2rem;
+}
+
 }
