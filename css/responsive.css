@@ -83,3 +83,51 @@ input{
 }
 
 }
+
+/* ====================
+   FOR SCREEN WIDTH OF 127rem
+   ==================== */
+
+
+
+@media (min-width: 1270px) and (max-width: 1420px){
+  .layout{
+    min-width: 127rem;
+    max-width: 142rem;
+  }
+    .container{
+    width: 100%;
+    max-width: none;
+    padding: 0 2.4rem;
+    margin: 0 auto;
+  }
+p{
+    font-size: 2rem;
+  }
+  a{
+    font-size: 1.5rem;
+  }
+    .btn-link{
+    font-size: 1.6rem;
+    width: 15rem;
+  }
+  
+    /* ====================
+   HEADER SECTION
+   ==================== */
+.head{
+  width: 100%;
+  max-width: none;
+  padding: 4rem 2.4rem;
+  height: 10rem;
+}
+
+.logo{
+    font-size: 4rem;
+}
+
+.main-nav{
+  gap: 2.5rem;
+}
+
+}
