@@ -1,5 +1,6 @@
 @import url("css/variable.css");
 @import url("css/layout.css");
+@import url("css/second-layout.css");
 @import url("css/component.css");
 
 
@@ -11,12 +12,12 @@
 
 html{
  font-size: 62.5%;
- overflow-x: hidden;
+/* overflow-x: hidden;*/
  
 }
 
 body{
-/*overflow-x: hidden;*/
+
  
 }
 

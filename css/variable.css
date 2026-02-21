@@ -3,7 +3,7 @@
   Background  Color
    ==================== */
    --background-color: #000;
-   --section-color: ##0F0F0F;
+   --section-color: #1D1D1D;
    
    
    
@@ -12,7 +12,7 @@
    ==================== */
   --font-primary-color: #fff;
   --font-secondary-color: #ccc;
-  --font-tertiary-color: #98f544;
+  --font-tertiary-color: #eee;
   --font-fourth-color: #000;
 }
 
