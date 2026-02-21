@@ -22,4 +22,31 @@ h2{
     font-size: 1.8rem;
   }
   
+
+  /* ====================
+   HEADER SECTION
+   ==================== */
+.head{
+    padding: 2rem 2.4rem;
+    max-width: 143rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ height: 12rem;
+}
+
+.logo{
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -0.3rem;
+    color: #fff;
+}
+
+.main-nav{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
 }
