@@ -1,4 +1,4 @@
-@media (min-width: 1430px) and (max-width: 1670px){
+/*@media (min-width: 1430px) and (max-width: 1670px){
   .layout{
     min-width: 143rem;
     max-width: 167rem;
@@ -21,9 +21,9 @@
     width: 15rem;
   }
 
-  /* ====================
+   /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -46,7 +46,7 @@
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -80,13 +80,13 @@ input{
   font-size: 2rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 127rem
    ==================== */
 
-@media (min-width: 1270px) and (max-width: 1420px){
+/*@media (min-width: 1270px) and (max-width: 1420px){
   .layout{
     min-width: 127rem;
     max-width: 142rem;
@@ -109,7 +109,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -127,7 +127,7 @@ p{
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -161,13 +161,13 @@ input{
   font-size: 2rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 1020rem
    ==================== */
 
-@media (min-width: 1020px) and (max-width: 1260px){
+/*@media (min-width: 1020px) and (max-width: 1260px){
 
 .layout{
     min-width: 102rem;
@@ -191,7 +191,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -209,7 +209,7 @@ p{
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -243,13 +243,13 @@ input{
   font-size: 1.6rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 31rem to 77rem
    ==================== */
 
-@media (min-width: 310px) and (max-width: 770px){
+/*@media (min-width: 310px) and (max-width: 770px){
   
   .layout{
     width: 100%;
@@ -275,7 +275,7 @@ input{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -298,7 +298,7 @@ input{
 
     /* ====================
    MOBILE NAVIGATION MENU 
-   ==================== */
+   ==================== 
 
 .main-nav{
   flex-direction: column;
@@ -355,7 +355,7 @@ input{
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 4rem;
     padding-bottom: 4rem;
@@ -403,4 +403,4 @@ input{
   font-size: 1.6rem;
 }
 
-}
+}*/

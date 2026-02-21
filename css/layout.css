@@ -108,3 +108,25 @@ input{
 .year{
   display: inline;
 }
+
+/* ====================
+          SECTIONS 
+   ==================== */
+
+
+section{
+  padding: 10rem 0;
+  background-color: var(   --background-color);
+}
+.section-bg{
+  background-color: var( --section-color);
+}
+
+.section-feature-in{
+  padding: 6rem;
+}
+
+.section-hero{
+  padding: 12rem 0;
+}
+
