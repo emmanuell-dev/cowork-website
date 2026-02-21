@@ -2,7 +2,7 @@ const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
-
+/*
 
 
 /// For Mobile Nav to Work
@@ -66,4 +66,4 @@ const obs = new IntersectionObserver(function (entries){
   }
 );
 
-obs.observe(sectionHeroEl);
+obs.observe(sectionHeroEl);*/

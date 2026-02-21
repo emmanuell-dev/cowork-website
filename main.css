@@ -1,0 +1,33 @@
+@import url("css/variable.css");
+@import url("css/layout.css");
+@import url("css/component.css");
+
+
+
+
+
+
+
+
+html{
+ font-size: 62.5%;
+}
+
+body{
+ 
+ 
+}
+
+.layout{
+    min-width: 167rem;
+    max-width: 192rem;
+    margin: 0 auto;
+    background-color: var(--background-color);
+}
+
+.container{
+    width: 100%;
+    max-width: 167rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
