@@ -2,12 +2,12 @@ const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
-/*
+
 
 
 /// For Mobile Nav to Work
 
-const btnNavEl = document.querySelector('.mobile-nav');
+const btnNavEl = document.querySelector('.nav-menu');
 const headEl = document.querySelector('.head');
 btnNavEl.addEventListener('click', function(){
   headEl.classList.toggle('nav-open')
@@ -18,7 +18,7 @@ btnNavEl.addEventListener('click', function(){
 
 
 
-const allLinks = document.querySelectorAll('a:link');
+/*const allLinks = document.querySelectorAll('a:link');
 
 allLinks.forEach(function(link) {
   link.addEventListener('click', function(e) {
