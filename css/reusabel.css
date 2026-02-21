@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -362,9 +362,7 @@ body{
 }
 
 
-/*
-Reusable Span
-*/
+
 
 .span{
     font-size: 3rem;
@@ -398,16 +396,12 @@ Reusable Span
     
 }
 
-/*.span-ss{
+.span-ss{
     text-align: center;
     display: block;
     margin-bottom: 2rem;
 }
-*/
-/*
-Card Items
 
-*/
 
 .card{
     display: flex;
@@ -432,10 +426,6 @@ Card Items
     background-color: #A6E8F6;
 }
 
-/*
-
-General Flex
-*/
 
 
 .flex{
@@ -452,14 +442,7 @@ General Flex
     align-items: center;
     gap: 1.5rem;
 }
-/*
 
-
-
-Blog Part for blog page grid and blog section grid
-
-
-*/
 
 .blog-img{
   max-width: 100%;
@@ -552,4 +535,4 @@ Blog Part for blog page grid and blog section grid
     display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/

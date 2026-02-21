@@ -1,4 +1,4 @@
-.section-hero{
+/*.section-hero{
   margin-top: 4rem;
   padding: 10rem 0;
   margin-bottom: 12rem;
@@ -19,11 +19,7 @@
   z-index: -1;
 }
 
-/*
 
-section feature in
-
-*/
 
 .section-feature-in{
   padding: 10rem 0;
@@ -45,10 +41,6 @@ section feature in
   display: none;
 }
 
-/*
-Section Why Choose Us
-
-*/
 
 .section-why{
   padding: 10rem 0;
@@ -105,12 +97,6 @@ left: 2.5rem;
     background-color: #FBC899;
 }
 
-/*
-
-
-Section Testimonial 
-
-*/
 
 .section-testimonial{
   padding: 10rem 0;
@@ -192,11 +178,6 @@ Section Testimonial
 
 
 
-/*
-
-section faq
-
-*/
 
 
 .section-faq{
@@ -273,13 +254,8 @@ grid-column: 1 / span 3;
 }
 
 
-/*
-
-Section Blog
-
-*/
 
 .section-blog{
   padding: 10rem 0;
   margin-bottom: 6.2rem;
-}
+}*/

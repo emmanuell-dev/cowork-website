@@ -1,4 +1,5 @@
-@media (min-width: 1439px) and (max-width: 1700px) {
+ 
+ /*@media (min-width: 1439px) and (max-width: 1700px) {
     .layout{
     width: 100%;
     min-width: 0;
@@ -169,13 +170,13 @@ left: 1.5rem;
   }
 
 
-} 
+} */
 
 
 
 /****** For Screens size of 1024px to 1430px */
 
-@media (min-width: 1270px) and (max-width: 1430px){
+/*@media (min-width: 1270px) and (max-width: 1430px){
 
 
   .layout{
@@ -713,9 +714,9 @@ left: 1.5rem;
     padding-top: 4rem;
     padding-bottom: 0;
   }
-}
+}*/
 
-@media (min-width: 610px) and (max-width: 993px){
+/*@media (min-width: 610px) and (max-width: 993px){
 
 
   .layout{
@@ -867,7 +868,7 @@ left: 1.5rem;
 }
 
 
-/* Section Feature In.     */
+
 
 .containers{
    overflow: hidden;
@@ -907,26 +908,12 @@ left: 1.5rem;
   }
 }
 
-/*.             */
-
-
-/*.     Section Why Choose Us. */
 
 .span-flex{
   gap: 8rem;
 }
 
 
-  /*.         */
-
-
-  /*.      Section Tour.    */
-
-
-
-
-
-  /*.    Section Stats.    */
 
   .span-s{
     text-align: center;
@@ -985,12 +972,12 @@ left: 1.5rem;
 
 
 
-  /*.         */
+
 .h2sss{
   text-align: center;
 }
 
-/*.    Section Blog.    */
+
 
 
 .gap{
@@ -1007,8 +994,6 @@ left: 1.5rem;
     border-radius: 2rem;
   }
 
-
-  /*.        Footer Section.  */
 
   .gaps{
     display: flex;
@@ -1259,7 +1244,6 @@ left: 1.5rem;
 
 
 
-/*.        Section Features In. */
 
 .section-feature-in{
   padding: 1.8rem 0;
@@ -1310,7 +1294,6 @@ left: 1.5rem;
   }
 }
 
-/*.     Section Why Choose Us. */
 
 
   .section-why{
@@ -1339,12 +1322,6 @@ left: 1.5rem;
   width: 3.2rem;
 }
 
-
-  /*.         */
-
-
-  /*.      Section Tour.    */
-
   .section-tour{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1354,7 +1331,6 @@ left: 1.5rem;
   }
 
 
-    /*.    Section Stats.    */
 
 
   .section-stats{
@@ -1412,8 +1388,6 @@ left: 1.5rem;
     justify-self: center;
   }
 
-  /*.     Section Testimonial */
-
   .section-testimonial{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1454,12 +1428,12 @@ left: 1.5rem;
 
 
 
-  /*.         */
+
 .h2sss{
   text-align: center;
 }
 
-/*.     Section FQA.    */
+
 .section-faq{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1483,7 +1457,6 @@ left: 1.5rem;
   height: 2rem;
 }
 
-/*.   Section CTA.    */
 
 .section-cta{
   padding: 1.8rem 0;
@@ -1495,7 +1468,6 @@ left: 1.5rem;
 }
 
 
-/*.      Section Blog.  */
 .section-blog{
   padding: 1.8rem 0;
   margin-bottom: 1.8rem;
@@ -1521,8 +1493,6 @@ left: 1.5rem;
   gap: 2rem;
 }
 
-
-/*.      Section Footer.  */
 
 .footer{
   padding: 1.8rem 0;
@@ -1646,7 +1616,6 @@ left: 1.5rem;
   .footer-logo{
     font-size: 5rem;
   }
-  /*Mobile Navigation Section */
  .nav-open .logo{
   color: #fff;
 }
@@ -1670,6 +1639,14 @@ left: 1.5rem;
     pointer-events: none;
     visibility: none;
   }
+  
+  
+  
+  
+  
+  
+  
+ 
 
 
   .nav-list{
@@ -1734,7 +1711,6 @@ left: 1.5rem;
 
 } 
 
-/**     Section Hero        */
 
 .section-hero{
   margin-top: 0;
@@ -1831,7 +1807,6 @@ left: 1.5rem;
   }
 
 
-  /** Section feature in    " */
 
   .section-feature-in{
     background-color: #0F0F10;
@@ -1898,7 +1873,8 @@ left: 1.5rem;
 
 
 
-/*.  Section Why Choose Us. */
+
+
 
 .section-why{
   background-color: #000;
@@ -1946,7 +1922,6 @@ left: 1.5rem;
   color: #fff;
 }
 
-/*.      Section Tour.    */
 
 .section-tour{
   padding: 3rem 0;
@@ -1971,7 +1946,6 @@ left: 1.5rem;
 }
 
 
-/*.          Section-stats.    */
 
 .section-stats{
   background-color: #000;
@@ -2042,7 +2016,6 @@ left: 1.5rem;
 .stats-img-box .hero-img{
   width: 98%;
 }
-  /*.      Section Testimonial. */
   .section-testimonial{
     padding: 3rem 0;
     margin-bottom: 0;
@@ -2090,4 +2063,37 @@ left: 1.5rem;
     color: #999;
   }
 
-}
+}*/
+
+
+/* ==========================================
+   TABLETS (Max-width: 992px)
+   ========================================== */
+
+/* ==========================================
+   MOBILE (Max-width: 600px)
+   ========================================== */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* ====================
+   HOME PAGE
+   ==================== */
+
+
+/* ====================
+   ABOUT PAGE
+   ==================== */
+
+
+/* ====================
+   CONTACT PAGE
+   ==================== */
+
