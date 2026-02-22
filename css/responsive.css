@@ -1,4 +1,4 @@
-/*@media (min-width: 1430px) and (max-width: 1670px){
+@media (min-width: 1430px) and (max-width: 1670px){
   .layout{
     min-width: 143rem;
     max-width: 167rem;
@@ -32,7 +32,7 @@
 
    /* ====================
    HEADER SECTION
-   ====================
+   ====================*/
 .head{
   width: 100%;
   max-width: none;
@@ -51,21 +51,21 @@
 
    /* ====================
    GRID LAYOUT 
-   ==================== 
+   ==================== */
 .grid{
   gap: 3rem;
 }
 
 /* ====================
   FLEX LAYOUT
-   ==================== 
+   ==================== */
    .flex-c{
      gap: 2rem;
    }
    
 /* ====================
   SECTION 
-   ==================== 
+   ==================== */
    
    .section-hero{
      padding: 10rem 0;
@@ -73,19 +73,19 @@
    
    /* ====================
   SECTION ( )
-   ==================== 
+   ==================== */
 .subhead{
   font-size: 2.5rem;
 }
 
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
-   ==================== 
+   ==================== */
    
 
 /* ====================
    FOOTER SECTION
-   ==================== 
+   ==================== */
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -96,15 +96,6 @@ SPECIAL SECTION ( FEATURE IN)
   margin-bottom: 2rem;
 }
 
-.footer-heading{
-  font-size: 2rem;
-  margin-bottom: 3rem;
-}
-
-
-.footer-form{
-  margin-bottom: 1.5rem;
-}
 
 input{
     font-size: 2rem;
@@ -119,7 +110,7 @@ input{
   font-size: 2rem;
 }
 
-}*/
+}
 
 /* ====================
    FOR SCREEN WIDTH OF 127rem
