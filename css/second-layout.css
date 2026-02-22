@@ -1,16 +1,9 @@
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
    ==================== */
-.feature-in{
-  display: flex;
-  gap: 8rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-}
-
-.feature-img{
-  height: 60px;
-  filter: grayscale(100%);
-  opacity: 80%;
-}
+   .icons{
+     width: 50px;
+     height: 50px;
+     filter: grayscale(100%);
+     opacity: 80%;
+   }

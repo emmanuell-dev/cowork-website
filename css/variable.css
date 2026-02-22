@@ -81,6 +81,12 @@ span{
   display: block;
 }
 
+.span{
+  color: var(--font-primary-color);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
      /* ====================
   GRID LAYOUT
    ==================== */
@@ -106,10 +112,19 @@ span{
    .flex{
      display: flex;
    }
-   
+   /* Flex */
+   .flex-r{
+     justify-content: space-around;
+   }
+   /* Flex Column */
    .flex-c{
      flex-direction: column;
      gap: 3rem;
+   }
+   /* Flex Gap */
+   .flex-g{
+     gap: 2rem;
+     align-items: center;
    }
    
     /* ====================

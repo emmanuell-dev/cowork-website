@@ -1,4 +1,4 @@
-@media (min-width: 1430px) and (max-width: 1670px){
+/*@media (min-width: 1430px) and (max-width: 1670px){
   .layout{
     min-width: 143rem;
     max-width: 167rem;
@@ -32,7 +32,7 @@
 
    /* ====================
    HEADER SECTION
-   ====================*/ 
+   ====================
 .head{
   width: 100%;
   max-width: none;
@@ -51,21 +51,21 @@
 
    /* ====================
    GRID LAYOUT 
-   ==================== */
+   ==================== 
 .grid{
   gap: 3rem;
 }
 
 /* ====================
   FLEX LAYOUT
-   ==================== */
+   ==================== 
    .flex-c{
      gap: 2rem;
    }
    
 /* ====================
   SECTION 
-   ==================== */
+   ==================== 
    
    .section-hero{
      padding: 10rem 0;
@@ -73,27 +73,19 @@
    
    /* ====================
   SECTION ( )
-   ==================== */
+   ==================== 
 .subhead{
   font-size: 2.5rem;
 }
 
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
-   ==================== */
+   ==================== 
    
-   .feature-in{
-     gap: 5rem;
-     margin-top: 3rem;
-   }
-   
-   .feature-img{
-     height: 50px;
-   }
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -127,13 +119,13 @@ input{
   font-size: 2rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 127rem
    ==================== */
 
-@media (min-width: 1270px) and (max-width: 1420px){
+/*@media (min-width: 1270px) and (max-width: 1420px){
   .layout{
     min-width: 127rem;
     max-width: 142rem;
@@ -159,7 +151,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -178,20 +170,20 @@ p{
 
    /* ====================
    GRID LAYOUT 
-   ==================== */
+   ==================== 
 .grid{
   gap: 3rem;
 }
 
        /* ====================
   FLEX LAYOUT
-   ==================== */
+   ==================== 
    .flex-c{
      gap: 2rem;
    }
 /* ====================
   SECTION 
-   ==================== */
+   ==================== 
    
    .section-hero{
      padding: 10rem 0;
@@ -202,14 +194,14 @@ p{
    
       /* ====================
   SECTION ( )
-   ==================== */
+   ==================== 
 .subhead{
   font-size: 2.2rem;
 }
 
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
-   ==================== */
+   ==================== 
    
    .feature-in{
      gap: 3rem;
@@ -224,7 +216,7 @@ SPECIAL SECTION ( FEATURE IN)
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -258,13 +250,13 @@ input{
   font-size: 2rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 1020rem
    ==================== */
 
-@media (min-width: 1020px) and (max-width: 1260px){
+/*@media (min-width: 1020px) and (max-width: 1260px){
 
 .layout{
     min-width: 102rem;
@@ -291,7 +283,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -309,29 +301,29 @@ p{
 
    /* ====================
    GRID LAYOUT 
-   ==================== */
+   ==================== 
 .grid{
   gap: 3rem;
 }
 
        /* ====================
   FLEX LAYOUT
-   ==================== */
+   ==================== 
    .flex-c{
      gap: 2rem;
    }
 
 /* ====================
   SECTION 
-   ==================== */
-   
+   ==================== 
+  
    .section-hero{
      padding: 8rem 0;
    }
    
       /* ====================
   SECTION ( )
-   ==================== */
+   ==================== 
 .subhead{
   font-size: 2rem;
 }
@@ -342,7 +334,7 @@ p{
 
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
-   ==================== */
+   ==================== 
    
    .feature-in{
      gap: 3rem;
@@ -357,7 +349,7 @@ SPECIAL SECTION ( FEATURE IN)
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 8rem;
     padding-bottom: 4rem;
@@ -391,13 +383,13 @@ input{
   font-size: 1.6rem;
 }
 
-}
+}*/
 
 /* ====================
    FOR SCREEN WIDTH OF 31rem to 77rem
    ==================== */
 
-@media (min-width: 310px) and (max-width: 770px){
+/*@media (min-width: 310px) and (max-width: 770px){
   
   .layout{
     width: 100%;
@@ -429,7 +421,7 @@ p{
   
     /* ====================
    HEADER SECTION
-   ==================== */
+   ==================== 
 .head{
   width: 100%;
   max-width: none;
@@ -452,7 +444,7 @@ p{
 
     /* ====================
    MOBILE NAVIGATION MENU 
-   ==================== */
+   ==================== 
 
 .main-nav{
   flex-direction: column;
@@ -508,14 +500,14 @@ p{
 
 /* ====================
    SECTION LAYOUT
-   ==================== */
+   ==================== 
 .section-hero{
   padding: 6rem 0;
 }
 
       /* ====================
   SECTION ( )
-   ==================== */
+   ==================== 
 .subhead{
   font-size: 1.8rem;
 }
@@ -526,35 +518,22 @@ p{
 
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
-   ==================== */
+   ==================== 
    
    .feature-in{
-     gap: 1.5rem;
+     gap: 1rem;
      margin-top: 1rem;
-       -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  -mask-imagd: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  width: max-content;
-  animation: scroll 18s linear infinite;
    }
    
    .feature-img{
-     height: 30px;
-     transition: transform 0.3s ease, filter 0.3s ease;
+     width: 40px;
+     height: 40px;
    }
    
-   @keyframes scroll {
-  0%{
-    transform: translateX(0%);
-  }
-
-  100%{
-    transform: translateX(-50%);
-  }
-}
 
 /* ====================
    GRID LAYOUT
-   ==================== */
+   ==================== 
    .grid{
      gap: 3rem;
    }
@@ -568,7 +547,7 @@ SPECIAL SECTION ( FEATURE IN)
 
 /* ====================
    FLEX LAYOUT
-   ==================== */
+   ==================== 
    
    .flex-c{
      gap: 1rem;
@@ -580,7 +559,7 @@ SPECIAL SECTION ( FEATURE IN)
 
 /* ====================
    FOOTER SECTION
-   ==================== */
+   ==================== 
 .footer{
   padding-top: 4rem;
     padding-bottom: 4rem;
@@ -628,4 +607,4 @@ input{
   font-size: 1.6rem;
 }
 
-}
+}*/
