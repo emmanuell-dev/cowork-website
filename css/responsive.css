@@ -625,11 +625,15 @@ SPECIAL SECTION ( FEATURE IN)
 
 .card{
   gap: 1.5rem;
+  justify-content: center;
+  background: red;
+  padding: 1rem 1.5rem;
 }
 
 .cards{
   width: 35px;
   height: 35px;
+  
 }
    
 
