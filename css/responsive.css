@@ -8,6 +8,11 @@
     max-width: none;
   }
   
+  .sticky .head{
+    padding: 4rem 1rem;
+    height: 6rem;
+  }
+  
   h1{
   font-size: 4.8rem;
 }
@@ -170,6 +175,11 @@ input{
     width: 100%;
     max-width: none;
   }
+  
+  .sticky .head{
+    padding: 4rem 1rem;
+    height: 4rem;
+  }
   h1{
   font-size: 4.3rem;
 }
@@ -326,6 +336,11 @@ input{
     .container{
     width: 100%;
     max-width: none;
+  }
+  
+  .sticky .head{
+    padding: 4rem 1rem;
+    height: 4rem;
   }
   h1{
   font-size: 3.8rem;
@@ -489,6 +504,11 @@ input{
  .container{
     width: 100%;
     padding: 0 1.5rem;
+  }
+  
+  .sticky .head{
+    padding: 2rem 1rem;
+    height: 3rem;
   }
   
   h1{
