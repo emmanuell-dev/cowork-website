@@ -46,7 +46,7 @@ allLinks.forEach(function(link) {
     }
   });
 });
-
+*/
 const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver(function (entries){
   const ent = entries[0];
@@ -66,4 +66,4 @@ const obs = new IntersectionObserver(function (entries){
   }
 );
 
-obs.observe(sectionHeroEl);*/
+obs.observe(sectionHeroEl);
