@@ -626,8 +626,10 @@ SPECIAL SECTION ( FEATURE IN)
 .card{
   gap: 1.5rem;
   justify-content: center;
-  background: red;
+  background: #111;
   padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0 1px #222;
 }
 
 .cards{
