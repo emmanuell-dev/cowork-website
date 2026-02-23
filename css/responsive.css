@@ -676,6 +676,9 @@ p{
   display: block;
 }
 
+.imgs{
+  border-radius: 1rem;
+}
 
 /* ====================
    SECTION LAYOUT
