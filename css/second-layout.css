@@ -7,3 +7,20 @@ SPECIAL SECTION ( FEATURE IN)
      filter: grayscale(100%);
      opacity: 80%;
    }
+
+
+/* ====================
+SECTIOM WHY 
+   ==================== */
+.card{
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+ gap: 3rem;
+ align-items: center;
+}
+
+.cards{
+  width: 80px;
+  height: 80px;
+}
