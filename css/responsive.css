@@ -113,6 +113,20 @@ SPECIAL SECTION
      width: 65px;
      height: 65px;
    }
+   
+   .video-card{
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 60rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0 2px #444;
+}
+
+.play{
+  width: 65px;
+  height: 65px;
+}
+
 
 /* ====================
    FOOTER SECTION
@@ -482,7 +496,7 @@ input{
   }
   
   h2{
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
   
   h3{
@@ -637,7 +651,21 @@ SPECIAL SECTION ( FEATURE IN)
   height: 35px;
   
 }
-   
+
+.video-card{
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0 1px #444;
+}
+
+.play{
+  width: 35px;
+  height: 35px;
+}
+
+
 
 /* ====================
    GRID LAYOUT

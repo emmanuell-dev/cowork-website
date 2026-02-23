@@ -24,3 +24,20 @@ SECTIOM WHY
   width: 80px;
   height: 80px;
 }
+
+.video-card{
+  width: 140rem;
+  height: 80rem;
+  background-color: #000;
+  margin: 30px  auto 0 auto;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 3px #444;
+}
+
+.play{
+  width: 80px;
+  height: 80px;
+}

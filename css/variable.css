@@ -3,7 +3,7 @@
   Background  Color
    ==================== */
    --background-color: #000;
-   --section-color: #1D1D1D;
+   --section-color: #0F0F0F;
    
    
    
@@ -133,6 +133,10 @@ span{
      align-items: center;
    }
    
+   .flex-w{
+    max-width: 110rem;
+     margin: 0 auto;
+   }
    
     /* ====================
   IMAGE LAYOUT
