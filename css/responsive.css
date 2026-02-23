@@ -676,14 +676,6 @@ p{
   display: block;
 }
 
-img{
-  max-width: 95%;
-  margin: 0 auto;
-}
-
-.imgs{
-  border-radius: 1rem;
-}
 
 /* ====================
    SECTION LAYOUT
