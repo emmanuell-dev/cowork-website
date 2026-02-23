@@ -1,0 +1,9 @@
+<div class="img">
+  <picture>
+    <source srcset="img/home-hero-desktop.webp" type="image/webp" media="(min-width: 1024px)">
+    <source srcset="img/home-hero-desktop.jpg" type="image/jpeg" media="(min-width: 1024px)">
+
+    <source srcset="img/home-hero.webp" type="image/webp">
+    <img src="img/home-hero.jpg" alt="cowork setting" class="imgs" loading="eager">
+  </picture>
+</div>
