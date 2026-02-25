@@ -643,6 +643,10 @@ SPECIAL SECTION ( FEATURE IN)
   font-size: 1.8rem;
 }
 
+article{
+  border-radius: 1rem;
+}
+
 .article-span-div{
   gap: 1.5rem;
 }
@@ -974,6 +978,19 @@ SECTIOM Testimonial
 
 .faq-answer{
   margin-left: 5px;
+}
+
+article{
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.article-span-div{
+  gap: 1rem;
+}
+
+.article-span-1{
+  border-radius: 0.5rem;
 }
 
 
