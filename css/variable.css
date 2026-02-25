@@ -4,7 +4,7 @@
    ==================== */
    --background-color: #000;
    --section-color: #0F0F0F;
-   
+
    
    
      /* ====================
@@ -161,6 +161,17 @@ height: 100%;
 border-radius: 2rem;
 }
 
+.timg{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+
 .margin{
   margin-top: 10rem;
+}
+
+.margin-b{
+  margin-bottom: 3rem;
 }

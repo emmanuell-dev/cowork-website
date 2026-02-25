@@ -500,6 +500,27 @@ SPECIAL SECTION ( FEATURE IN)
 }
 
 
+.grids{
+  gap: 1.5rem;
+}
+
+.ticard{
+  padding: 1.5rem 2rem;
+}
+
+.tcard{
+  gap: 1.5rem;
+}
+
+.tcards{
+  gap: 1rem;
+}
+
+.tim{
+  width: 65px;
+  height: 65px;
+}
+
 
 /* ====================
    FOOTER SECTION
@@ -588,6 +609,10 @@ p{
   
    .margin{
     margin-top: 6rem;
+  }
+  
+  .margin-b{
+    margin-bottom: 1.5rem;
   }
   
      /* ====================
@@ -752,6 +777,45 @@ SPECIAL SECTION ( FEATURE IN)
   flex-direction: column;
   align-items: flex-end;
 }
+
+
+/* ====================
+SECTIOM Testimonial 
+   ==================== */
+.grids{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ticard{
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.tcard{
+  gap: 1rem;
+}
+
+.tcards{
+  gap: 1rem;
+}
+
+.tauthors{
+  font-weight: 500;
+}
+
+.tspan{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.tim{
+  width: 30px;
+  height: 30px;
+}
+
+
 
 
 /* ====================
