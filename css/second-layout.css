@@ -176,7 +176,7 @@ SECTIOM FAQ
 
 
 .faq-answer{
-  grid-column: 1;
+  grid-column: 1 / -1;
     margin-left: 20px;
     display: none;
 }

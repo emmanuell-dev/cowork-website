@@ -618,7 +618,7 @@ SPECIAL SECTION ( FEATURE IN)
 }
 
 .faq{
-  max-width: 99rem;
+  width: 99rem;
   gap: 2.5rem;
   margin: 2rem auto;
 }
@@ -928,6 +928,35 @@ SECTIOM Testimonial
   width: 30px;
   height: 30px;
 }
+
+
+.faq{
+ width: 31rem;
+ margin: 1.5rem auto;
+ gap: 1rem;
+}
+
+.faq-question{
+  box-shadow: inset 0 0 0 1px #222;
+}
+
+.open:hover{
+  border-top: 1px solid #fff;
+}
+
+.faq-q{
+  font-size: 1.7rem;
+}
+
+.arrow{
+  width: 25px;
+  height: 25px;
+}
+
+.faq-answer{
+  margin-left: 5px;
+}
+
 
 
 
