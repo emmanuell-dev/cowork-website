@@ -175,6 +175,15 @@ border-radius: 2rem;
 }
 
 
+.article-img{
+  width: 100%;
+  aspect-ratio: 47/32;
+  object-fit: cover;
+}
+
+
+
+
 .margin{
   margin-top: 10rem;
 }
