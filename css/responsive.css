@@ -573,6 +573,10 @@ SPECIAL SECTION ( FEATURE IN)
   height: 45px;
 }
 
+.tspan{
+  font-size: 1.4rem;
+}
+
 
 /* ====================
    FOOTER SECTION
