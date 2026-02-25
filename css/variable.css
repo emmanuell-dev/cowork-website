@@ -181,6 +181,12 @@ border-radius: 2rem;
   object-fit: cover;
 }
 
+.about-img{
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
 
 
 

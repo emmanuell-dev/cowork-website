@@ -2,7 +2,7 @@
 
 # A Better Way to Work Together
 
-Cowork provides flexible and well-designed workspaces for individuals and teams. We create environments that support focus, collaboration, and growth. Whether you work alone or with a team, Cowork helps you stay productive in a professional setting.
+Cowork offers flexible, thoughtfully designed workspaces for individuals and teams. We provide professional environments that foster focus, collaboration, and growth, helping you stay productive regardless of your team size.
 
 ---
 
