@@ -180,15 +180,6 @@ SPECIAL SECTION
   height: 40px;
 }
 
-.faq-btns{
-  gap: 2.5rem;
-  border-radius: 2rem;
-}
-
-.right-arrow{
-  width: 40px;
-  height: 40px;
-}
 
 
 /* ====================
@@ -409,15 +400,6 @@ width: 40px;
 }
 
 
-.faq-btns{
-  gap: 1rem;
-  border-radius: 1rem;
-}
-
-.right-arrow{
-  width: 40px;
-  height: 40px;
-}
 
 
 
@@ -651,17 +633,6 @@ SPECIAL SECTION ( FEATURE IN)
 
 .faq-q{
   font-size: 1.8rem;
-}
-
-
-.faq-btns{
-  gap: 1rem;
-  border-radius: 1rem;
-}
-
-.right-arrow{
-  width: 30px;
-  height: 30px;
 }
 
 
@@ -988,7 +959,6 @@ SECTIOM Testimonial
 .faq-answer{
   margin-left: 5px;
 }
-
 
 
 
