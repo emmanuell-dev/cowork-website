@@ -132,3 +132,76 @@ SECTIOM Testimonial
 .tauthor{
   font-weight: 700;
 }
+
+
+
+/* ====================
+SECTIOM FAQ 
+   ==================== */
+
+.faq-span{
+  font-size: 1.6rem;
+  color: var(--font-secondary-color);
+  line-height: 1.6;
+}
+
+.faq{
+  width: 120rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.faq-question{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  box-shadow: inset 0 0 0 2px #555;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.faq-q{
+  grid-column:  1/ 3;
+}
+
+.arrow{
+  width: 50px;
+  height: 50px;
+  grid-column: 3/4;
+}
+
+
+
+.faq-answer{
+  grid-column: 1;
+    margin-left: 20px;
+    display: none;
+}
+
+.faq-span{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.open{
+  transition: 0.2s all linear;
+}
+
+.open:hover{
+  border-top: 2px solid #fff;
+  transform: translateY(2px);
+}
+
+.open:hover .arrow{
+  transform: rotate(180deg);
+    transition-duration: 0.3s;
+}
+
+.open:hover .faq-answer{
+  display: block;
+}
+
+
+
