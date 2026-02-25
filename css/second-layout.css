@@ -124,7 +124,7 @@ SECTIOM Testimonial
 .tspan{
   font-size: 1.8rem;
   color: var(--font-secondary-color);
-  font-weight: 800;
+  font-weight: 400;
   line-height: 1.6;
 }
 

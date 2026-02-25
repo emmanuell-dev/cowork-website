@@ -141,6 +141,32 @@ SPECIAL SECTION
 }
 
 
+.grids{
+  gap: 1.5rem;
+}
+
+.ticard{
+  padding: 1.5rem 2rem;
+}
+
+.tcard{
+  gap: 1.5rem;
+}
+
+.tcards{
+  gap: 1rem;
+}
+
+.tim{
+  width: 65px;
+  height: 65px;
+}
+
+.tspan{
+  font-size: 1.6rem;
+}
+
+
 /* ====================
    FOOTER SECTION
    ==================== */
