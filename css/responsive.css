@@ -25,13 +25,13 @@ h3{
   font-size: 2.8rem;
 }
 
+h4{
+  font-size: 2rem;
+}
+
+  
   p{
     font-size: 1.8rem;
-  }
-  
-  
-  p{
-    font-size: 2rem;
   }
   
   a{
@@ -166,6 +166,16 @@ SPECIAL SECTION
   font-size: 1.6rem;
 }
 
+.faq{
+  gap: 2.5rem;
+  margin: 2rem auto;
+}
+
+.arrow{
+  width: 40px;
+  height: 40px;
+}
+
 
 /* ====================
    FOOTER SECTION
@@ -225,6 +235,12 @@ h2{
 h3{
   font-size: 2.3rem;
 }
+
+h4{
+  font-size: 2rem;
+}
+
+
 p{
     font-size: 1.8rem;
   }
@@ -365,6 +381,16 @@ SPECIAL SECTION ( FEATURE IN)
   font-size: 1.6rem;
 }
 
+.faq{
+  gap: 2.5rem;
+  margin: 2rem auto;
+}
+.arrow{
+width: 40px;
+  height: 40px;
+}
+
+
 
 /* ====================
    FOOTER SECTION
@@ -434,6 +460,12 @@ h2{
 h3{
   font-size: 2rem;
 }
+
+h4{
+  font-size: 1.8rem;
+}
+
+
 p{
     font-size: 1.6rem;
   }
@@ -576,6 +608,20 @@ SPECIAL SECTION ( FEATURE IN)
 .tspan{
   font-size: 1.4rem;
 }
+
+.faq{
+  max-width: 102rem;
+  gap: 2.5rem;
+  margin: 2rem auto;
+}
+
+.arrow{
+  width: 30px;
+  height: 30px;
+}
+
+
+
 
 
 /* ====================
