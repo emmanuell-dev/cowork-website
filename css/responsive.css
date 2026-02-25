@@ -340,6 +340,32 @@ SPECIAL SECTION ( FEATURE IN)
 }
 
 
+.grids{
+  gap: 1.5rem;
+}
+
+.ticard{
+  padding: 1.5rem 2rem;
+}
+
+.tcard{
+  gap: 1.5rem;
+}
+
+.tcards{
+  gap: 1rem;
+}
+
+.tim{
+  width: 50px;
+  height: 50px;
+}
+
+.tspan{
+  font-size: 1.6rem;
+}
+
+
 /* ====================
    FOOTER SECTION
    ==================== */
@@ -543,8 +569,8 @@ SPECIAL SECTION ( FEATURE IN)
 }
 
 .tim{
-  width: 65px;
-  height: 65px;
+  width: 45px;
+  height: 45px;
 }
 
 
