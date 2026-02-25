@@ -171,6 +171,10 @@ SPECIAL SECTION
   margin: 2rem auto;
 }
 
+.faq-q{
+  font-size: 2rem;
+}
+
 .arrow{
   width: 40px;
   height: 40px;
@@ -384,6 +388,10 @@ SPECIAL SECTION ( FEATURE IN)
 .faq{
   gap: 2.5rem;
   margin: 2rem auto;
+}
+
+.faq-q{
+  font-size: 2rem;
 }
 .arrow{
 width: 40px;
@@ -618,6 +626,10 @@ SPECIAL SECTION ( FEATURE IN)
 .arrow{
   width: 30px;
   height: 30px;
+}
+
+.faq-q{
+  font-size: 1.8rem;
 }
 
 

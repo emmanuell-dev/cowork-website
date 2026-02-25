@@ -163,6 +163,7 @@ SECTIOM FAQ
 }
 
 .faq-q{
+  font-size: 2.4rem;
   grid-column:  1/ 3;
 }
 
