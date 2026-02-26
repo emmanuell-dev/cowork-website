@@ -889,7 +889,9 @@ p{
 .nav-open .btn-close{
   display: block;
 }
-
+.img{
+  width: 59rem;
+}
 .imgs{
   border-radius: 1rem;
 }
