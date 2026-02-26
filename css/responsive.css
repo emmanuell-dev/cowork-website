@@ -957,7 +957,7 @@ SPECIAL SECTION ( FEATURE IN)
   align-self: center;
 }
 
-@media(min-width: 770px){
+@media(min-width: 770px) and (max-width: 1010px){
   .grid-media{
     grid-template-columns: repeat(3, 1fr);
     
