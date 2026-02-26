@@ -248,3 +248,30 @@ article{
 }
 
 
+/* ====================
+SECTION Our Mission
+   ==================== */
+ 
+ .span-b{
+   font-weight: 400;
+ }
+ 
+ 
+ .mission-grid{
+   display: grid;
+   gap: 2rem;
+ }
+ 
+   
+.span-li{
+  font-weight: 600;
+  color: var(--font-primary-color);
+  font-size: 1.8rem;
+}
+
+
+.mission-list{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}

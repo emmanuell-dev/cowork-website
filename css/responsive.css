@@ -45,6 +45,10 @@ h4{
   .margin{
     margin-top: 8rem;
   }
+  
+  .margin-t{
+    margin-top: 4rem;
+  }
 
    /* ====================
    HEADER SECTION
@@ -184,6 +188,18 @@ SPECIAL SECTION
   gap: 2.5rem;
 }
 
+.mission-grid{
+  gap: 1.5rem;
+}
+
+.span-li{
+  font-size: 1.6;
+}
+
+.mission-list{
+  gap: 1rem;
+}
+
 
 
 /* ====================
@@ -263,6 +279,9 @@ p{
   }
    .margin{
     margin-top: 6rem;
+  }
+   .margin-t{
+    margin-top: 3rem;
   }
   
      /* ====================
@@ -407,7 +426,17 @@ width: 40px;
   gap: 2rem;
 }
 
+.mission-grid{
+  gap: 1.5rem;
+}
 
+.span-li{
+  font-size: 1.6;
+}
+
+.mission-list{
+  gap: 0.5rem;
+}
 
 
 
@@ -499,6 +528,10 @@ p{
   
    .margin{
     margin-top: 4rem;
+  }
+  
+   .margin-t{
+    margin-top: 3rem;
   }
   
      /* ====================
@@ -651,7 +684,17 @@ article{
   gap: 1.5rem;
 }
 
+.mission-grid{
+  gap: 1.5rem;
+}
 
+.span-li{
+  font-size: 1.6;
+}
+
+.mission-list{
+  gap: 0.5rem;
+}
 
 
 
@@ -746,6 +789,10 @@ p{
   
   .margin-b{
     margin-bottom: 1.5rem;
+  }
+  
+   .margin-t{
+    margin-top: 3rem;
   }
   
   
@@ -998,7 +1045,17 @@ article{
 }
 
 
+.mission-grid{
+  gap: 1rem;
+}
 
+.span-li{
+  font-size: 1.6rem;
+}
+
+.mission-list{
+  gap: 0.3rem;
+}
 
 /* ====================
    GRID LAYOUT

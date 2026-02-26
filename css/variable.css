@@ -194,6 +194,10 @@ border-radius: 2rem;
   margin-top: 10rem;
 }
 
+ .margin-t{
+    margin-top: 6rem;
+  }
+
 .margin-b{
   margin-bottom: 3rem;
 }
