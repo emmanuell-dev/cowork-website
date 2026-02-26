@@ -757,6 +757,393 @@ input{
     padding: 0 1.5rem;
   }
   
+  
+  
+    .sticky .head{
+    padding: 2rem 1rem;
+    height: 3rem;
+  }
+  
+  h1{
+  font-size: 3.5rem;
+  }
+  
+  h2{
+    font-size: 2.2rem;
+  }
+  
+  h3{
+    font-size: 1.7rem;
+  }
+
+p{
+  font-size: 1.5rem;
+}
+
+  a{
+    font-size: 1.5rem;
+  }
+    .btn-link{
+    font-size: 1.5rem;
+    width: 18rem;
+    padding: 1.5rem;
+  }
+  
+   .margin{
+    margin-top: 6rem;
+  }
+  
+  .margin-b{
+    margin-bottom: 1.5rem;
+  }
+  
+   .margin-t{
+    margin-top: 3rem;
+  }
+  
+  
+
+  
+     /* ====================
+   SPAN ELEMENT
+   ==================== */
+.span{
+  font-size: 1rem;
+}
+  
+    /* ====================
+   HEADER SECTION
+   ==================== */
+.head{
+  width: 100%;
+  max-width: none;
+  padding: 2rem 1rem;
+  height: 3rem;
+  position: relative;
+}
+
+.logo{
+    font-size: 2.5rem;
+}
+.nav-menu{
+  display: block;
+}
+
+.main-nav{
+  gap: 2.5rem;
+}
+
+
+    /* ====================
+   MOBILE NAVIGATION MENU 
+   ==================== */
+
+.main-nav{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.main-nav .end{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.btn-m{
+  font-size: 2rem;
+  color: var(--font-primary-color);
+  font-weight: 600;
+}
+
+.header-nav{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    z-index: 666;
+  }
+  
+
+.nav-open .header-nav{
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.nav-open .btn-open{
+  display: none;
+}
+
+.nav-open .btn-close{
+  display: block;
+}
+
+.imgs{
+  border-radius: 1rem;
+}
+
+/* ====================
+   SECTION LAYOUT
+   ==================== */
+.section-hero{
+  padding: 6rem 0;
+}
+
+section{
+  padding: 5rem 0 8rem 0;
+}
+
+      /* ====================
+  SECTION ( )
+   ==================== */
+.subhead{
+  font-size: 1.5rem;
+}
+
+.section-feature-in{
+  padding: 2rem 0;
+}
+
+
+
+/* ====================
+SPECIAL SECTION ( FEATURE IN)
+   ==================== */
+   
+.icons{
+  width: 20px;
+  height: 20px;
+}
+
+.card{
+  gap: 0.5rem;
+  justify-content: center;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.cards{
+  width: 35px;
+  height: 35px;
+  
+}
+
+.video-card{
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0 1px #444;
+}
+
+.play{
+  width: 35px;
+  height: 35px;
+}
+
+.span-b{
+  font-size: 2rem;
+}
+
+.center{
+  text-align: center;
+}
+
+.stats{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+/* ====================
+SECTIOM Testimonial 
+   ==================== */
+.grids{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ticard{
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.tcard{
+  gap: 1rem;
+}
+
+.tcards{
+  gap: 1rem;
+}
+
+.tauthors{
+  font-weight: 500;
+}
+
+.tspan{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.tim{
+  width: 30px;
+  height: 30px;
+}
+
+
+.faq{
+  max-width: 77rem;
+ width: 95%;
+ margin: 1.5rem auto;
+ gap: 1rem;
+}
+
+.faq-span{
+  font-size: 1.3rem;
+}
+
+.faq-question{
+  box-shadow: inset 0 0 0 1px #222;
+}
+
+.open:hover{
+  border-top: 1px solid #fff;
+}
+
+.faq-q{
+  font-size: 1.6rem;
+}
+
+.arrow{
+  width: 25px;
+  height: 25px;
+}
+
+.faq-answer{
+  margin-left: 5px;
+}
+
+article{
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.article-span-div{
+  gap: 1rem;
+}
+
+.article-span-1{
+  border-radius: 0.5rem;
+}
+
+
+.mission-grid{
+  gap: 1rem;
+}
+
+.span-li{
+  font-size: 1.4rem;
+}
+
+.mission-list{
+  gap: 0.3rem;
+}
+
+/* ====================
+   GRID LAYOUT
+   ==================== */
+   .grid{
+     gap: 3rem;
+   }
+.grid-2-col{
+  grid-template-columns: 1fr;
+}
+
+.grid-3-col{
+  grid-template-columns: 1fr;
+}
+
+/* ====================
+   FLEX LAYOUT
+   ==================== */
+   
+   .flex-c{
+     gap: 1rem;
+   }
+   
+   .flex-r{
+     text-align: center;
+   }
+   
+   .flex-g{
+     gap: 0.5rem;
+   }
+
+/* ====================
+   FOOTER SECTION
+   ==================== */
+.footer{
+  padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer-grid{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.footer-heading{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-subscribe{
+  text-align: center;
+}
+
+.footer-nav{
+  align-items: center;
+}
+
+
+.footer-form{
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+  border: none;
+  align-items: center;
+}
+
+input{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.btn{
+  margin-bottom: 1rem;
+}
+
+.footer-copy{
+  font-size: 1.6rem;
+}
+
+
 }
 
 
