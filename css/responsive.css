@@ -890,7 +890,8 @@ p{
   display: block;
 }
 .img{
-  width: 59rem;
+  width: 50rem;
+  margin: 0 auto;
 }
 .imgs{
   border-radius: 1rem;
