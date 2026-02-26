@@ -1078,13 +1078,6 @@ article{
    .grid{
      gap: 3rem;
    }
-.grid-2-col{
-  grid-template-columns: 1fr;
-}
-
-.grid-3-col{
-  grid-template-columns: 3fr;
-}
 
 
 /* ====================
