@@ -946,6 +946,30 @@ SPECIAL SECTION ( FEATURE IN)
   margin: 0 auto;
 }
 
+.grid-media{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-media div:nth-child(3){
+  background: red;
+  grid-column:  1 / span 2;
+  justify-self: center;
+  align-self: center;
+}
+
+@media(min-width: 770px){
+  .grid-media{
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .grid-media div:nth-child(3){
+  grid-column:  auto;
+}
+
+
+}
+
 .cards{
   width: 35px;
   height: 35px;
@@ -1088,6 +1112,7 @@ article{
 .grid-3-col{
   grid-template-columns: 1fr;
 }
+
 
 /* ====================
    FLEX LAYOUT
