@@ -736,16 +736,95 @@ input{
 
 }
 
+
+
+
+
+
+/* ====================
+   FOR SCREEN WIDTH OF 59rem to 101rem
+   ==================== */
+
+@media (min-width: 590px) and (max-width: 1010px){
+    .layout{
+    width: 100%;
+    min-width: 59rem;
+    max-width: 101rem;
+  }
+  
+ .container{
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ====================
    FOR SCREEN WIDTH OF 31rem to 77rem
    ==================== */
 
-@media (min-width: 310px) and (max-width: 770px){
+@media (min-width: 310px) and (max-width: 520px){
   
   .layout{
     width: 100%;
     min-width: 31rem;
-    max-width: 77rem;
+    max-width: 52rem;
   }
   
  .container{
