@@ -922,6 +922,8 @@ SPECIAL SECTION ( FEATURE IN)
 .card{
   gap: 0.5rem;
   justify-content: center;
+  width: 30rem;
+  margin: 0 auto;
 }
 
 .cards{
