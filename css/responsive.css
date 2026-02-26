@@ -890,7 +890,9 @@ p{
   display: block;
 }
 .img{
-  width: 50rem;
+  width: 80vw;
+  min-width: 50rem;
+  max-width: 80rem;
   margin: 0 auto;
 }
 .imgs{
