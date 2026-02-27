@@ -935,25 +935,22 @@ section{
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
    ==================== */
-  .cowork-why{
-    background: yellow;
-  } 
-  
   .cowork-why .grid{
     display: flex;
+    margin-top: 3rem;
   }
   
   .cowork-why .grid-3-col{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    width: 90vw;
+    width: 95vw;
     max-width: 90rem;
     margin: auto;
 }
 
 .cowork-why .grid-3-col > *{
-  flex: 0 0 28rem;
+  flex: 0 0 30rem;
 }
 
 
