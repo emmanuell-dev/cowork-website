@@ -485,7 +485,7 @@ input{
 @media (min-width: 960px) and (max-width: 1260px){
 
 .layout{
-    min-width: 102rem;
+    min-width: 96rem;
     max-width: 126rem;
   }
     .container{
