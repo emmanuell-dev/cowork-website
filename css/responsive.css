@@ -940,18 +940,23 @@ SPECIAL SECTION ( FEATURE IN)
   } 
   
   .cowork-why .grid{
-    
+    display: flex;
   }
   
   .cowork-why .grid-3-col{
-     width: 90vw;
-    min-width: 60rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 90vw;
     max-width: 90rem;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;
-  }
+}
+
+.cowork-why .grid-3-col > *{
+  flex: 0 0 28rem;
+}
+
+
    
    
    
