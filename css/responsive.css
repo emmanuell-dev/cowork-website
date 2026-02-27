@@ -739,13 +739,13 @@ input{
 }
 
 /* ====================
-   FOR SCREEN WIDTH OF 78rem to 101rem
+   FOR SCREEN WIDTH OF 75rem to 95rem
    ==================== */
 
-@media (min-width: 780px) and (max-width: 950px){
+@media (min-width: 750px) and (max-width: 950px){
     .layout{
     width: 100%;
-    min-width: 78rem;
+    min-width: 75rem;
     max-width: 95rem;
   }
   
@@ -1023,8 +1023,9 @@ SECTIOM Testimonial
 
 
 .faq{
-  max-width: 77rem;
- width: 95%;
+  width: 85vw;
+  min-width: 40rem;
+ max-width: 60rem;
  margin: 1.5rem auto;
  gap: 1rem;
 }
