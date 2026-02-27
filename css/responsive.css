@@ -482,7 +482,7 @@ input{
    FOR SCREEN WIDTH OF 1020rem
    ==================== */
 
-@media (min-width: 1020px) and (max-width: 1260px){
+@media (min-width: 960px) and (max-width: 1260px){
 
 .layout{
     min-width: 102rem;
@@ -740,11 +740,11 @@ input{
    FOR SCREEN WIDTH OF 78rem to 101rem
    ==================== */
 
-@media (min-width: 780px) and (max-width: 1010px){
+@media (min-width: 780px) and (max-width: 950px){
     .layout{
     width: 100%;
     min-width: 78rem;
-    max-width: 101rem;
+    max-width: 95rem;
   }
   
  .container{
@@ -988,6 +988,9 @@ SECTIOM Testimonial
 .grids{
   gap: 1.5rem;
 }
+
+
+
 
 .ticard{
   padding: 1rem 2rem;
