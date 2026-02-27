@@ -935,12 +935,11 @@ section{
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
    ==================== */
-  .cowork-why .grid{
+  .cowork-why .container .grid{
     display: flex;
-    margin-top: 3rem;
   }
   
-  .cowork-why .grid-3-col{
+  .cowork-why .container .grid-3-col{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -949,7 +948,7 @@ SPECIAL SECTION ( FEATURE IN)
     margin: auto;
 }
 
-.cowork-why .grid-3-col > *{
+.cowork-why .container .grid-3-col > *{
   flex: 0 0 30rem;
 }
 
@@ -1080,7 +1079,7 @@ SECTIOM Testimonial
 }
 
 
-.cowork-blog .blog{
+.cowork-blog .container .blog{
   display: flex;
   flex-wrap: wrap;
     justify-content: center;
@@ -1090,11 +1089,11 @@ SECTIOM Testimonial
     margin: auto;
 }
 
-.cowork-blog .blog > *{
+.cowork-blog .container .blog > *{
   flex: 0 0 30rem;
 }
 
-.cowork-blog .blog .article{
+.cowork-blog .container .blog .article{
   border-radius: 1rem;
   padding: 1rem;
 }
