@@ -662,7 +662,9 @@ SPECIAL SECTION ( FEATURE IN)
 }
 
 .faq{
-  width: 99rem;
+  width: 85vw;
+ min-width: 70rem;
+ max-width: 99rem;
   gap: 2.5rem;
   margin: 2rem auto;
 }
