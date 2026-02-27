@@ -935,6 +935,28 @@ section{
 /* ====================
 SPECIAL SECTION ( FEATURE IN)
    ==================== */
+  .cowork-why{
+    background: yellow;
+  } 
+  
+  .cowork-why .grid{
+    
+  }
+  
+  .cowork-why .grid-3-col{
+     width: 90vw;
+    min-width: 60rem;
+    max-width: 90rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+  }
+   
+   
+   
+   
+   
    
 .icons{
   width: 20px;
