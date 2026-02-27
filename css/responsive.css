@@ -1079,21 +1079,26 @@ SECTIOM Testimonial
   margin-left: 5px;
 }
 
-article{
-  border-radius: 1rem;
-  padding: 1rem;
-  width: 100vw;
-  min-width: 30rem;
-  max-width: 40rem;
-  margin: 0 auto;
+
+.cowork-blog .blog{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 95vw;
+    max-width: 90rem;
+    margin: auto;
 }
 
-.blog{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr;
-  column-gap: 0.1rem;
+.cowork-blog .blog > *{
+  flex: 0 0 30rem;
 }
+
+.cowork-blog .blog .article{
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 
 .article-img{
   margin-bottom: 2rem;
