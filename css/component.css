@@ -11,10 +11,9 @@
   font-size: 2rem;
   color: #fff;
   font-weight: 700;
-  background: #020618;
+  background: #020628;
   text-align: center;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-  box-shadow: 2px 3px 5px #000;
   
 }
 

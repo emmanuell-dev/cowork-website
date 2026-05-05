@@ -50,7 +50,7 @@
    FOOTER SECTION
    ==================== */
 .footer{
-  background-color: var(--background-color);
+  /*background-color: var(--background-color);*/
   padding-top: 12rem;
     padding-bottom: 6rem;
 }
@@ -87,7 +87,7 @@
 input{
     outline: none;
     border: none;
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
     padding: 1rem 2rem;
     color: #ffff;
     font-size: 3rem;
@@ -116,10 +116,10 @@ input{
 
 section{
   padding: 10rem 0 12rem 0;
-  background-color: var(   --background-color);
+  /*background-color: var(   --background-color);*/
 }
 .section-bg{
-  background-color: var( --section-color);
+  /*background-color: var( --section-color);*/
 }
 
 .section-feature-in{
@@ -127,7 +127,7 @@ section{
 }
 
 .section-bg-s{
-  background-color: var(--section-color);
+  /*background-color: var(--section-color);*/
 }
 
 .section-hero{

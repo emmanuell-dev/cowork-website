@@ -1770,8 +1770,9 @@ p{
   }
     .btn-link{
     font-size: 1.5rem;
-    width: 18rem;
+    width: 15rem;
     padding: 1.5rem;
+    border-radius: 1rem;
   }
   
    .margin{

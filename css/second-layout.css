@@ -18,7 +18,7 @@ SECTIOM WHY
  text-align: center;
  gap: 1.5rem;
  align-items: center;
-  background: #111;
+  /*background: #111;*/
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   box-shadow: inset 0 0 0 1px #222;
@@ -32,7 +32,7 @@ SECTIOM WHY
 .video-card{
   width: 140rem;
   height: 80rem;
-  background-color: #000;
+ /* background-color: #000;*/
   margin: 30px  auto 0 auto;
   border-radius: 5rem;
   display: flex;
@@ -96,7 +96,7 @@ SECTIOM Testimonial
   justify-content: center;
   padding: 2rem 3rem;
   border-radius: 2rem;
-  background: #000;
+ /* background: #000;*/
   box-shadow: inset 0 0 0 1px #444;
 }
 
@@ -222,7 +222,7 @@ SECTIOM FAQ
 SECTION Blog
    ==================== */
 article{
-  background: #111;
+ /* background: #111;*/
   padding: 2rem;
   border-radius: 2rem;
 }
